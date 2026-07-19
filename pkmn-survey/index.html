@@ -1,0 +1,150 @@
+<div id='intro'>
+  <select id="start-at"></select>
+  <button type="button" onClick="startQuiz()">Begin</button>
+  <button type="button" onClick="startQuizRandom()">Random</button>
+</div>
+
+<div id="quiz">
+  <div id="heading">
+    <h2 id="name"></h2>
+    <img id="portrait" />
+    <div id="stats">
+      <div id="type1"></div>
+      <div id="type2"></div>
+      <div id="height"></div>
+      <div id="weight"></div>
+      <div id="colour"></div>
+      <div id="bodytype"></div>
+    </div>
+  </div>
+
+  <form id="questions">
+    <h3>Check all that apply</h3>
+    <div>
+      <fieldset>
+        <legend>Anatomy</legend>
+        <label><input type="checkbox" name="anat_2heads" value="true">Has 2 heads</label>
+        <label><input type="checkbox" name="anat_3heads" value="true">Has 3 heads</label>
+        <label><input type="checkbox" name="anat_4heads" value="true">Has 4 heads</label>
+        <label><input type="checkbox" name="anat_5heads" value="true">Has 5 heads</label>
+        <label><input type="checkbox" name="anat_4arm" value="true">Has 4 arms</label>
+        <label><input type="checkbox" name="anat_horns" value="true">Has horns</label>
+        <label><input type="checkbox" name="anat_spikes" value="true">Has spikes</label>
+        <label><input type="checkbox" name="anat_tusks" value="true">Has tusks</label>
+        <label><input type="checkbox" name="anat_shell" value="true">Has shell</label>
+        <label><input type="checkbox" name="anat_1eye" value="true">Only 1 eye</label>
+        <label><input type="checkbox" name="anat_3eye" value="true">Has 3 eyes</label>
+        <label><input type="checkbox" name="anat_4eye" value="true">Has 4 eyes</label>
+        <label><input type="checkbox" name="anat_5eye" value="true">Has 5 eyes</label>
+        <label><input type="checkbox" name="anat_6eye" value="true">Has 6 eyes</label>
+        <label><input type="checkbox" name="anat_longtongue" value="true">Has long tongue (eg: frog)</label>
+        <label><input type="checkbox" name="anat_hairshort" value="true">Has hair (short)</label>
+        <label><input type="checkbox" name="anat_hairlong" value="true">Has hair (long)</label>
+        <label><input type="checkbox" name="anat_hat" value="true">Has hat-like thing on head</label>
+        <label><input type="checkbox" name="anat_plant" value="true">Has plant growing from back</label>
+        <label><input type="checkbox" name="anat_object" value="true">Possessing an object (ghosts)</label>
+        <label><input type="checkbox" name="anat_cocoon" value="true">Is a cocoon</label>
+        <label><input type="checkbox" name="anat_diglett" value="true">Never leaves ground (eg: Diglett)</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Skin features</legend>
+        <label><input type="checkbox" name="skin_scales" value="true">Has scales</label>
+        <label><input type="checkbox" name="skin_fur" value="true">Has fur</label>
+        <label><input type="checkbox" name="skin_skin" value="true">Has skin</label>
+        <label><input type="checkbox" name="skin_feathers" value="true">Has feathers</label>
+        <label><input type="checkbox" name="skin_slime" value="true">Is slimy</label>
+        <label><input type="checkbox" name="skin_bug" value="true">Has exoskeleton</label>
+        <label><input type="checkbox" name="skin_wood" value="true">Has bark/wood</label>
+        <label><input type="checkbox" name="skin_plant" value="true">Plant epidermis (Not bark/wood)</label>
+        <label><input type="checkbox" name="skin_stone" value="true">Has stone exterior</label>
+        <label><input type="checkbox" name="skin_metal" value="true">Has metal exterior</label>
+        <label><input type="checkbox" name="skin_cloud" value="true">Made of clouds/gas</label>
+        <label><input type="checkbox" name="skin_shadow" value="true">Made of shadow</label>
+        <label><input type="checkbox" name="skin_fire" value="true">Has flames/Is on fire</label>
+        <label><input type="checkbox" name="skin_elec" value="true">Made of electricity</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Manipulating objects</legend>
+        <label><input type="checkbox" name="manip_hands" value="true">Uses hands</label>
+        <label><input type="checkbox" name="manip_paws" value="true">Uses paws</label>
+        <label><input type="checkbox" name="manip_talons" value="true">Uses talons (feet)</label>
+        <label><input type="checkbox" name="manip_mouth" value="true">Uses mouth</label>
+        <label><input type="checkbox" name="manip_beak" value="true">Uses beak</label>
+        <label><input type="checkbox" name="manip_tongue" value="true">Uses tongue</label>
+        <label><input type="checkbox" name="manip_tail" value="true">Uses tail</label>
+        <label><input type="checkbox" name="manip_tentacles" value="true">Uses tentacles</label>
+        <label><input type="checkbox" name="manip_vines" value="true">Uses vines</label>
+        <label><input type="checkbox" name="manip_psychic" value="true">Uses telekenesis/psychic power</label>
+        <label><input type="checkbox" name="manip_pseudopods" value="true">Uses pseudopods</label>
+        <label><input type="checkbox" name="manip_crab" value="true">Uses crab-like claws</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Moving Around</legend>
+        <label><input type="checkbox" name="move_walk" value="true">Walk</label>
+        <label><input type="checkbox" name="move_run" value="true">Run</label>
+        <label><input type="checkbox" name="move_crawl" value="true">Crawl</label>
+        <label><input type="checkbox" name="move_slither" value="true">Slither (like a snake)</label>
+        <label><input type="checkbox" name="move_slug" value="true">Undulate (like a slug)</label>
+        <label><input type="checkbox" name="move_fly" value="true">Fly (with wings)</label>
+        <label><input type="checkbox" name="move_float" value="true">Float/Hover</label>
+        <label><input type="checkbox" name="move_dig" value="true">Burrow</label>
+        <label><input type="checkbox" name="move_hop" value="true">Hop</label>
+        <label><input type="checkbox" name="move_leap" value="true">Leap</label>
+        <label><input type="checkbox" name="move_swim" value="true">Swim</label>
+        <label><input type="checkbox" name="move_trot" value="true">Trot/Gallop</label>
+      </fieldset>
+      
+      <fieldset>
+        <legend>Senses</legend>
+        <label><input type="checkbox" name="sense_blind" value="true">Blind</label>
+        <label><input type="checkbox" name="sense_badsight" value="true">Poor Eyesight</label>
+        <label><input type="checkbox" name="sense_goodsight" value="true">Excellent Eyesight</label>
+        <label><input type="checkbox" name="sense_deaf" value="true">Deaf</label>
+        <label><input type="checkbox" name="sense_badhearing" value="true">Bad Hearing</label>
+        <label><input type="checkbox" name="sense_goodhearing" value="true">Excellent Hearing</label>
+        <label><input type="checkbox" name="sense_badnose" value="true">Bad Sense of Smell</label>
+        <label><input type="checkbox" name="sense_goodnose" value="true">Excellent Sense of Smell</label>
+        <label><input type="checkbox" name="sense_echolocate" value="true">Echolocation</label>
+        <label><input type="checkbox" name="sense_electrorecption" value="true">Electroreception</label>
+        <label><input type="checkbox" name="sense_see_ir" value="true">Detect Infrared</label>
+        <label><input type="checkbox" name="sense_tremorsense" value="true">Sense vibrations in ground</label>
+        <label><input type="checkbox" name="sense_psy_mind" value="true">Psychic: Detect minds</label>
+        <label><input type="checkbox" name="sense_psy_dream" value="true">Psychic: Detect dreams</label>
+        <label><input type="checkbox" name="sense_aura" value="true">See Auras</label>
+        <label><input type="checkbox" name="sense_invis" value="true">Sense invisible</label>
+        
+      </fieldset>
+
+      <fieldset>
+        <legend>Additional Details</legend>
+        <label><input type="checkbox" name="app_spots" value="true">Has spots</label>
+        <label><input type="checkbox" name="app_stripes" value="true">Has stripes</label>
+        <label><input type="checkbox" name="app_skinpattern" value="true">Has patterned skin</label>
+        <label><input type="checkbox" name="app_wingpattern" value="true">Has patterned wings</label>
+        <label><input type="checkbox" name="app_bellypattern" value="true">Has pattern on belly</label>
+        <label><input type="checkbox" name="app_chestpattern" value="true">Has markings on chest</label>
+        <label><input type="checkbox" name="app_lanky" value="true">Lanky</label>
+        <label><input type="checkbox" name="app_squat" value="true">Squat/Stout</label>
+        <label><input type="checkbox" name="app_colourRed" value="true">Secondary colour: Red</label>
+        <label><input type="checkbox" name="app_colourBlue" value="true">Secondary colour: Blue</label>
+        <label><input type="checkbox" name="app_colourYellow" value="true">Secondary colour: Yellow</label>
+        <label><input type="checkbox" name="app_colourGreen" value="true">Secondary colour: Green</label>
+        <label><input type="checkbox" name="app_colourBlack" value="true">Secondary colour: Black</label>
+        <label><input type="checkbox" name="app_colourBrown" value="true">Secondary colour: Brown</label>
+        <label><input type="checkbox" name="app_colourPurple" value="true">Secondary colour: Purple</label>
+        <label><input type="checkbox" name="app_colourGray" value="true">Secondary colour: Gray</label>
+        <label><input type="checkbox" name="app_colourWhite" value="true">Secondary colour: White</label>
+        <label><input type="checkbox" name="app_colourPink" value="true">Secondary colour: Pink</label>
+      </fieldset>
+    </div>
+    <fieldset>
+      <legend>Anything else worth calling out?</legend>
+      <textarea name="extra" cols="30" rows="6"></textarea>
+    </fieldset>
+    <button type="button" onClick="goNext()">Next Pocketmonster</button>
+  </form>
+  <button type="button" onClick="copyResponses()">Done For Now</button>
+</div>

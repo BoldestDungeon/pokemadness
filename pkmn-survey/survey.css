@@ -1,0 +1,223 @@
+:root {
+  --colour-normal: #9fa19f;
+  --colour-fighting: #ff8000;
+  --colour-flying: #81b9ef;
+  --colour-poison: #9141cb;
+  --colour-ground: #915121;
+  --colour-rock: #afa981;
+  --colour-bug: #91a119;
+  --colour-ghost: #704170;
+  --colour-steel: #60a1b8;
+  --colour-fire: #e62829;
+  --colour-water: #2980ef;
+  --colour-grass: #3fa129;
+  --colour-electric: #fac000;
+  --colour-psychic: #ef4179;
+  --colour-ice: #3dcef3;
+  --colour-dragon: #5060e1;
+  --colour-dark: #624d4e;
+  --colour-fairy: #ef70ef;
+}
+#quiz { display: none; }
+#quiz.ready { display: initial; }
+#intro.ready {display: none; }
+form { overflow: hidden; }
+form > div {
+  display: flex;
+  flex-wrap: wrap;
+}
+fieldset {
+  display: flex;
+  flex-direction: column;
+  width: 28ch;
+  max-width: 40%;
+  min-width: 20ch;
+  margin: 0.5em auto;
+}
+@media screen and (max-width: 400px) { 
+  fieldset {
+    width: 100%; 
+    max-width: 100%; 
+    font-size: 1.1rem;
+  }
+}
+fieldset:has(textarea) {
+  position: relative;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 0;
+}
+textarea { 
+  max-width: 95%;
+}
+#heading {
+  border-top: 0.25em solid var(--type1);
+  border-right: 0.25em solid var(--type1);
+  border-bottom: 0.25em solid var(--type2);
+  border-left: 0.25em solid var(--type2);
+  border-radius: 2em;
+  max-width: 90ch;
+  margin: 1em auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0.5em 1em 1.5em;
+}
+#name {
+  width: 100%;
+  text-align: center;
+}
+#portrait {
+  max-width: 50%;
+  width: 20ch;
+  margin: 0 1.5em;
+}
+@media screen and (max-width: 525px) {
+  #portrait { max-width: 95%; margin: 1em auto; }
+}
+#stats{
+  font-size: 1.25rem;
+}
+#type1::before {
+  content: 'Type: ';
+  color: black;
+  font-weight: bold;
+}
+#type1 {
+  color: var(--type1);
+  display: inline-block;
+}
+#type2:not(:empty)::before {
+  content: ' / ';
+  color: black;
+}
+#type2 {
+  display: inline;
+  color: var(--type2);
+}
+#height::before {
+  content: 'Height: ';
+  font-weight: bold;
+}
+#weight::before {
+  content: 'Weight: ';
+  font-weight: bold;
+}
+#colour::before {
+  content: 'Colour: ';
+  font-weight: bold;
+}
+#bodytype::before {
+  content: 'Body Type: ';
+  font-weight: bold;
+}
+
+.type1_normal {
+  --type1: var(--colour-normal);
+}
+.type2_normal {
+  --type2: var(--colour-normal);
+}
+.type1_fighting {
+  --type1: var(--colour-fighting);
+}
+.type2_fighting {
+  --type2: var(--colour-fighting);
+}
+.type1_flying {
+  --type1: var(--colour-flying);
+}
+.type2_flying {
+  --type2: var(--colour-flying);
+}
+.type1_poison {
+  --type1: var(--colour-poison);
+}
+.type2_poison {
+  --type2: var(--colour-poison);
+}
+.type1_ground {
+  --type1: var(--colour-ground);
+}
+.type2_ground {
+  --type2: var(--colour-ground);
+}
+.type1_rock {
+  --type1: var(--colour-rock);
+}
+.type2_rock {
+  --type2: var(--colour-rock);
+}
+.type1_bug {
+  --type1: var(--colour-bug);
+}
+.type2_bug {
+  --type2: var(--colour-bug);
+}
+.type1_ghost {
+  --type1: var(--colour-ghost);
+}
+.type2_ghost {
+  --type2: var(--colour-ghost);
+}
+.type1_steel {
+  --type1: var(--colour-steel);
+}
+.type2_steel {
+  --type2: var(--colour-steel);
+}
+.type1_fire {
+  --type1: var(--colour-fire);
+}
+.type2_fire {
+  --type2: var(--colour-fire);
+}
+.type1_water {
+  --type1: var(--colour-water);
+}
+.type2_water {
+  --type2: var(--colour-water);
+}
+.type1_grass {
+  --type1: var(--colour-grass);
+}
+.type2_grass {
+  --type2: var(--colour-grass);
+}
+.type1_electric {
+  --type1: var(--colour-electric);
+}
+.type2_electric {
+  --type2: var(--colour-electric);
+}
+.type1_psychic {
+  --type1: var(--colour-psychic);
+}
+.type2_psychic {
+  --type2: var(--colour-psychic);
+}
+.type1_ice {
+  --type1: var(--colour-ice);
+}
+.type2_ice {
+  --type2: var(--colour-ice);
+}
+.type1_dragon {
+  --type1: var(--colour-dragon);
+}
+.type2_dragon {
+  --type2: var(--colour-dragon);
+}
+.type1_dark {
+  --type1: var(--colour-dark);
+}
+.type2_dark {
+  --type2: var(--colour-dark);
+}
+.type1_fairy {
+  --type1: var(--colour-fairy);
+}
+.type2_fairy {
+  --type2: var(--colour-fairy);
+}
