@@ -31,10 +31,19 @@ CHAPTER 1 SPECIALNESS - KEYBOARD & TEAMCARD
   position: relative;
   overflow: clip;
   width: 100vw;
+  max-width: 100vw;
   left: 50%;
   transform: translateX(-50%);
   margin: 0;
   padding: 0;
+}
+#workskin > div {
+  max-width: 72em;
+  margin-left: auto;
+  margin-right: auto;
+}
+#workskin > div.preface { 
+  max-width: 69em;
 }
 
 #workskin #chapters > .chapter:not(#chapter-1) {
