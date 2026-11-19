@@ -23,56 +23,6 @@ PLACEHOLDER VARS - FIND/REPLACE BEFORE WORKSKINNING
   --colour-fairy: #ef70ef;
 }
 
-
-/********************************************************
-DEBUGGING HELPERS - NOT FOR AO3
-********************************************************/
-
-.keyboard-entry>* { background: #fff2; }
-.invalid { border-color: darkred!important; }
-.invalid { background: #faa4; }
-.j1 { background: #ffc4; }
-.j1[open]~.k1 { background: #fdc4; }
-.j1[open]~.k1[open]~.l1 { background: #fba4; }
-.dA { background: #eeee; }
-/* .v0, .dB { background: limegreen; } */
-.gn.v0.e0 { background: cornsilk; }
-.gm.v0.e0 { background: aliceblue; }
-.gf.v0.e0 { background: pink; }
-[class*=' e']:before { opacity: 0.25; pointer-events: none; transition: all 0.5s; color: #ccc; }
-[class*=' e']:hover:before { opacity: 0.75; pointer-events: none; color: #fff }
-.eA:not([open]):before { position: absolute; content: 'A'; pointer-events: none;}
-.eB:not([open]):before { position: absolute; content: 'B'; pointer-events: none;}
-.eC:not([open]):before { position: absolute; content: 'C'; pointer-events: none;}
-.eD:not([open]):before { position: absolute; content: 'D'; pointer-events: none;}
-.eE:not([open]):before { position: absolute; content: 'E'; pointer-events: none;}
-.eF:not([open]):before { position: absolute; content: 'F'; pointer-events: none;}
-.eG:not([open]):before { position: absolute; content: 'G'; pointer-events: none;}
-.eH:not([open]):before { position: absolute; content: 'H'; pointer-events: none;}
-.eI:not([open]):before { position: absolute; content: 'I'; pointer-events: none;}
-.eJ:not([open]):before { position: absolute; content: 'J'; pointer-events: none;}
-.eK:not([open]):before { position: absolute; content: 'K'; pointer-events: none;}
-.eL:not([open]):before { position: absolute; content: 'L'; pointer-events: none;}
-.eM:not([open]):before { position: absolute; content: 'M'; pointer-events: none;}
-.eN:not([open]):before { position: absolute; content: 'N'; pointer-events: none;}
-.eO:not([open]):before { position: absolute; content: 'O'; pointer-events: none;}
-.eP:not([open]):before { position: absolute; content: 'P'; pointer-events: none;}
-.eQ:not([open]):before { position: absolute; content: 'Q'; pointer-events: none;}
-.eR:not([open]):before { position: absolute; content: 'R'; pointer-events: none;}
-.eS:not([open]):before { position: absolute; content: 'S'; pointer-events: none;}
-.eT:not([open]):before { position: absolute; content: 'T'; pointer-events: none;}
-.eU:not([open]):before { position: absolute; content: 'U'; pointer-events: none;}
-.eV:not([open]):before { position: absolute; content: 'V'; pointer-events: none;}
-.eW:not([open]):before { position: absolute; content: 'W'; pointer-events: none;}
-.eX:not([open]):before { position: absolute; content: 'X'; pointer-events: none;}
-.eY:not([open]):before { position: absolute; content: 'Y'; pointer-events: none;}
-.eZ:not([open]):before { position: absolute; content: 'Z'; pointer-events: none;}
-
-#chapters, #workskin, #chapter-2 {
-  min-height: 200vh;
-  position: relative;
-}
-
 /*********************************************************
 CHAPTER 1 SPECIALNESS - KEYBOARD & TEAMCARD
 ********************************************************* */

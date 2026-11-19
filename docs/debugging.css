@@ -1,0 +1,49 @@
+/********************************************************
+DEBUGGING HELPERS - NOT FOR AO3
+********************************************************/
+#keyboard {display: none; }
+
+:has(#devhelp:checked) .keyboard-entry>* { background: #fff2; }
+:has(#devhelp:checked) .invalid { border-color: darkred!important; }
+:has(#devhelp:checked) .invalid { background: #faa4; }
+:has(#devhelp:checked) .j1 { background: #ffc4; }
+:has(#devhelp:checked) .j1[open]~.k1 { background: #fdc4; }
+:has(#devhelp:checked) .j1[open]~.k1[open]~.l1 { background: #fba4; }
+:has(#devhelp:checked) .dA { background: #eeee; }
+:has(#devhelp:checked) /* .v0, .dB { background: limegreen; } */
+:has(#devhelp:checked) .gn.v0.e0 { background: cornsilk; }
+:has(#devhelp:checked) .gm.v0.e0 { background: aliceblue; }
+:has(#devhelp:checked) .gf.v0.e0 { background: pink; }
+:has(#devhelp:checked) [class*=' e']:before { opacity: 0.25; pointer-events: none; transition: all 0.5s; color: #ccc; }
+:has(#devhelp:checked) [class*=' e']:hover:before { opacity: 0.75; pointer-events: none; color: #fff }
+:has(#devhelp:checked) .eA:not([open]):before { position: absolute; content: 'A'; pointer-events: none;}
+:has(#devhelp:checked) .eB:not([open]):before { position: absolute; content: 'B'; pointer-events: none;}
+:has(#devhelp:checked) .eC:not([open]):before { position: absolute; content: 'C'; pointer-events: none;}
+:has(#devhelp:checked) .eD:not([open]):before { position: absolute; content: 'D'; pointer-events: none;}
+:has(#devhelp:checked) .eE:not([open]):before { position: absolute; content: 'E'; pointer-events: none;}
+:has(#devhelp:checked) .eF:not([open]):before { position: absolute; content: 'F'; pointer-events: none;}
+:has(#devhelp:checked) .eG:not([open]):before { position: absolute; content: 'G'; pointer-events: none;}
+:has(#devhelp:checked) .eH:not([open]):before { position: absolute; content: 'H'; pointer-events: none;}
+:has(#devhelp:checked) .eI:not([open]):before { position: absolute; content: 'I'; pointer-events: none;}
+:has(#devhelp:checked) .eJ:not([open]):before { position: absolute; content: 'J'; pointer-events: none;}
+:has(#devhelp:checked) .eK:not([open]):before { position: absolute; content: 'K'; pointer-events: none;}
+:has(#devhelp:checked) .eL:not([open]):before { position: absolute; content: 'L'; pointer-events: none;}
+:has(#devhelp:checked) .eM:not([open]):before { position: absolute; content: 'M'; pointer-events: none;}
+:has(#devhelp:checked) .eN:not([open]):before { position: absolute; content: 'N'; pointer-events: none;}
+:has(#devhelp:checked) .eO:not([open]):before { position: absolute; content: 'O'; pointer-events: none;}
+:has(#devhelp:checked) .eP:not([open]):before { position: absolute; content: 'P'; pointer-events: none;}
+:has(#devhelp:checked) .eQ:not([open]):before { position: absolute; content: 'Q'; pointer-events: none;}
+:has(#devhelp:checked) .eR:not([open]):before { position: absolute; content: 'R'; pointer-events: none;}
+:has(#devhelp:checked) .eS:not([open]):before { position: absolute; content: 'S'; pointer-events: none;}
+:has(#devhelp:checked) .eT:not([open]):before { position: absolute; content: 'T'; pointer-events: none;}
+:has(#devhelp:checked) .eU:not([open]):before { position: absolute; content: 'U'; pointer-events: none;}
+:has(#devhelp:checked) .eV:not([open]):before { position: absolute; content: 'V'; pointer-events: none;}
+:has(#devhelp:checked) .eW:not([open]):before { position: absolute; content: 'W'; pointer-events: none;}
+:has(#devhelp:checked) .eX:not([open]):before { position: absolute; content: 'X'; pointer-events: none;}
+:has(#devhelp:checked) .eY:not([open]):before { position: absolute; content: 'Y'; pointer-events: none;}
+:has(#devhelp:checked) .eZ:not([open]):before { position: absolute; content: 'Z'; pointer-events: none;}
+
+#chapters, #workskin, #chapter-2 {
+  min-height: 200vh;
+  position: relative;
+}

@@ -277,78 +277,19 @@ const types = [
   
 ];
 const kbchars = [
-'A',
-'B',
-'C',
-'D',
-'E',
-'F',
-'G',
-'H',
-'I',
-'J',
-'K',
-'L',
-'M',
-'N',
-'O',
-'P',
-'Q',
-'R',
-'S',
-'T',
-'U',
-'V',
-'W',
-'X',
-'Y',
-'Z',
-'0',
-'1',
-'2',
-'3',
-'4',
-'5',
-'6',
-'7',
-'8',
-'9',
-'!',
-'?',
-'🚲',
-'⊙',
-'✊',
-'🕊',
-'☣',
-'🕳',
-'🪨',
-'🐞',
-'👻',
-'⌶',
-'🔥',
-'💧',
-'🍃',
-'⚡',
-'✲',
-'🧊',
-'🐲',
-'❍',
-'🧚',
-'☎',
-'☠',
-'☮',
-'☂',
-'⚄',
-'✎',
-'☹',
-'☺'
+'A','B','C','D','E','F','G','H','I','J','K','L','M',
+'N','O','P','Q','R','S','T','U','V','W','X','Y','Z',
+'0','1','2','3','4','5','6','7','8','9','!','?','🚲',
+'⊙','✊','🕊','☣','🕳','🪨','🐞','👻','⌶','🔥','💧','🍃','⚡',
+'✲','🧊','🐲','❍','🧚','☎','☠','☮','☂','⚄','✎','☹','☺'
 ]
 const pronouns = ['f', 'm', 'n'];
 
-const allPkmnAsync = fetch('https://cdn.shopify.com/s/files/1/0636/7294/2787/files/pkmn.json').then( resp => resp.json() ).then(data => { allPkmn = data }).catch( err => {console.log(err) });
+const allPkmnAsync = fetch('data/src/pkmn.json').then( resp => resp.json() ).then(data => { allPkmn = data }).catch( err => {console.log(err) });
 
 
 const gen9start = 906;
+const maxGen8fam = 468;
 let randomSeed = 151;
 function random() {
     var x = Math.sin(randomSeed++) * 10000;
@@ -359,18 +300,20 @@ function random() {
 // Generic Dialogue/Spit tag prefix:['a'];
 // Evolution-count prefix:          ['b'];
 // Password digit prefix:           ['d'];
-// Name letter-entry prefix:        ['e'];
+// Evolution stage in family:       ['e'];
 // Gender/Pronouns prefix:          ['g'];
 // Pokedex ID:                      ['i'];
 // Original teammate vs recruit:    ['o'];
 // Variation prefix:                ['v'];
-// Liked/Disliked flavours          ['y'];
+// Liked/Disliked flavours          ['ym', 'yk];  -- Yum/Yuck
 // Partner original type1           ['z'];        -- Used to keep original team name when changing partners
 // Row, Col prefixes:               ['r', 'c'];
 // Type 1, Type 2:                  ['t1', t2];
 // Weak/Strong/Nullify prefixes     ['w', 's', 'n'];
 const charprefixes = ['h', 'f']; // Hero, Friend
 const binaryprefixes = ['j', 'k', 'l', 'm', 'p', 'q', 't', 'u', 'w', 'x']; // Used for binary-encoding 'dex ID. (Do we need different prefixes for each digit? Does it actually provide any anti-lag benefit?)
+
+const familyBinaryPrefixes = ['j', 'k', 'l', 'm', 'p', 'q', 't', 'u', 'w'] // If we're tracking evostage anyways, we can save a digit on binary prefixes (add the x back in to be able to cover all Gen9 pkmn as well?)
 
 const nameCharacters = [
   'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '_'
@@ -423,7 +366,7 @@ function generatePwdInputs(heroType) {
 function generateNameInputs(){
   let nameInputs = '';
   for(let i=0; i<8; i++) {
-    nameInputs += generateNameInput(i) + '\n';
+    nameInputs += `<div class="d${i}">${generateNameInput(i)}</div>`;
   }
   return nameInputs;
 }
@@ -632,10 +575,10 @@ function teamNameCSS(){
   for(let t=0; t<types.length; t++) {
     const typeobj = types[t];
     output += `
-#workskin:has(.${charprefixes[0]} .t1${typeobj.id.toString(18)}[open]) .team:before {
+:has(.${charprefixes[0]} .t1${typeobj.id.toString(18)}[open]) .team:before {
   content: "${typeobj.teamPrefix}";
 }
-#workskin:has(.${charprefixes[1]} .t1${typeobj.id.toString(18)}[open]) .team:after {
+:has(.${charprefixes[1]} .t1${typeobj.id.toString(18)}[open]) .team:after {
   content: "${typeobj.teamSuffix}";
 }`;
   }
@@ -647,12 +590,12 @@ function portraitBorderCSS() {
   for(let t=0; t<types.length; t++) {
     const typeobj = types[t];
     output += `
-#workskin:has(.${charprefixes[0]} .t1${typeobj.id.toString(18)}[open]) .hero-img,
-#workskin:has(.${charprefixes[1]} .t1${typeobj.id.toString(18)}[open]) .friend-img {
+:has(.${charprefixes[0]} .t1${typeobj.id.toString(18)}[open]) .hero-img,
+:has(.${charprefixes[1]} .t1${typeobj.id.toString(18)}[open]) .friend-img {
   border-color: ${typeobj.colour};
 }
-#workskin:has(.${charprefixes[0]}.${charprefixes[0]} .t2${typeobj.id.toString(18)}[open]) .hero-img,
-#workskin:has(.${charprefixes[1]}.${charprefixes[1]} .t2${typeobj.id.toString(18)}[open]) .friend-img {
+:has(.${charprefixes[0]}.${charprefixes[0]} .t2${typeobj.id.toString(18)}[open]) .hero-img,
+:has(.${charprefixes[1]}.${charprefixes[1]} .t2${typeobj.id.toString(18)}[open]) .friend-img {
   border-bottom-color: ${typeobj.colour};
   border-left-color: ${typeobj.colour};
 }`;
@@ -715,17 +658,17 @@ function kbDisplayCSS() {
     const digitCode = d.toString(12).toUpperCase();
     if(d) { output += ','; }
     output += `
-#workskin:not(:has(.${charprefixes[0]} .d${digitCode}[open])) .dd${charprefixes[0]}${digitCode},
-#workskin:not(:has(.${charprefixes[1]} .d${digitCode}[open])) .dd${charprefixes[1]}${digitCode}`;
+:not(:has(.${charprefixes[0]} .d${digitCode}[open])) .dd${charprefixes[0]}${digitCode},
+:not(:has(.${charprefixes[1]} .d${digitCode}[open])) .dd${charprefixes[1]}${digitCode}`;
     for(let col=1; col<=13; col++) {
       output+=`,
-#workskin:has(.${charprefixes[0]} .d${digitCode}.c${col}[open]) .dd${charprefixes[0]}${digitCode}>:not(.dc${col}),
-#workskin:has(.${charprefixes[1]} .d${digitCode}.c${col}[open]) .dd${charprefixes[1]}${digitCode}>:not(.dc${col})`
+:has(.${charprefixes[0]} .d${digitCode}.c${col}[open]) .dd${charprefixes[0]}${digitCode}>:not(.dc${col}),
+:has(.${charprefixes[1]} .d${digitCode}.c${col}[open]) .dd${charprefixes[1]}${digitCode}>:not(.dc${col})`
     }
     for(let row=1; row <= 5; row++) {
       output+=`,
-#workskin:has(.${charprefixes[0]} .d${digitCode}.r${row}[open]) .dd${charprefixes[0]}${digitCode}>:not(.dr${row}),
-#workskin:has(.${charprefixes[1]} .d${digitCode}.r${row}[open]) .dd${charprefixes[1]}${digitCode}>:not(.dr${row})`
+:has(.${charprefixes[0]} .d${digitCode}.r${row}[open]) .dd${charprefixes[0]}${digitCode}>:not(.dr${row}),
+:has(.${charprefixes[1]} .d${digitCode}.r${row}[open]) .dd${charprefixes[1]}${digitCode}>:not(.dr${row})`
     }
   }
   output += ` {
@@ -746,8 +689,8 @@ function nameDisplayCSS() {
       else if (d == 7) { selector = 'name:after'; }
       else { selector = `name>:nth-child(${Math.ceil(d/2)}):${d%2 ? 'before' : 'after'}`; }
       output += `
-#workskin:has(.${charprefixes[0]} .d${d}.e${String.fromCharCode(65+a)}[open]) .${selector},
-#workskin:has(.${charprefixes[1]} .d${d}.e${String.fromCharCode(65+a)}[open]) .${charprefixes[1]}${selector}`
+:has(.${charprefixes[0]} .d${d}.e${String.fromCharCode(65+a)}[open]) .${selector},
+:has(.${charprefixes[1]} .d${d}.e${String.fromCharCode(65+a)}[open]) .${charprefixes[1]}${selector}`
     }
     output += ` {
   content: '${ String.fromCharCode(65+a) }';
@@ -761,8 +704,8 @@ function natureDisplayCSS() {
   for(let n=0; n<natures.length; n++) {
     let natureObj = natures[n];
     output += `
-#workskin:has(.${charprefixes[0]} .n${natureObj.id}[open]) .nature:before,
-#workskin:has(.${charprefixes[1]} .n${natureObj.id}[open]) .${charprefixes[1]}nature:before {
+:has(.${charprefixes[0]} .n${natureObj.id}[open]) .nature:before,
+:has(.${charprefixes[1]} .n${natureObj.id}[open]) .${charprefixes[1]}nature:before {
   content: '${natureObj.name}';
 }
 `
@@ -780,15 +723,15 @@ function pkmnPwdConfirm() {
     const prefix = binaryprefixes[i];
     if(i) { output += ',' }
     output += `
-#workskin:not(:has(.${charprefixes[0]} .${prefix}0[open])) .${charprefixes[0]} .b${prefix}0,
-#workskin:not(:has(.${charprefixes[0]} .${prefix}1[open])) .${charprefixes[0]} .b${prefix}1,
-#workskin:not(:has(.${charprefixes[1]} .${prefix}0[open])) .${charprefixes[1]} .b${prefix}0,
-#workskin:not(:has(.${charprefixes[1]} .${prefix}1[open])) .${charprefixes[1]} .b${prefix}1`
+:not(:has(.${charprefixes[0]} .${prefix}0[open])) .${charprefixes[0]} .b${prefix}0,
+:not(:has(.${charprefixes[0]} .${prefix}1[open])) .${charprefixes[0]} .b${prefix}1,
+:not(:has(.${charprefixes[1]} .${prefix}0[open])) .${charprefixes[1]} .b${prefix}0,
+:not(:has(.${charprefixes[1]} .${prefix}1[open])) .${charprefixes[1]} .b${prefix}1`
   }
   for(let v=0; v<7; v++) {
     output += `,
-#workskin:not(:has(.${charprefixes[0]} .v${v}[open])) .${charprefixes[0]} .bv${v},
-#workskin:not(:has(.${charprefixes[1]} .v${v}[open])) .${charprefixes[1]} .bv${v}`
+:not(:has(.${charprefixes[0]} .v${v}[open])) .${charprefixes[0]} .bv${v},
+:not(:has(.${charprefixes[1]} .v${v}[open])) .${charprefixes[1]} .bv${v}`
   }
   output += ` {
   display: none;
@@ -798,8 +741,8 @@ function pkmnPwdConfirm() {
 }
 
 function pkmnNameDisplay() {
-  let output = `#workskin .vari:before,
-#workskin .${charprefixes[1]}vari:before {
+  let output = ` .vari:before,
+ .${charprefixes[1]}vari:before {
   content: 'Normal';
 }`;
   for (let dexId in allPkmn) {
@@ -809,16 +752,16 @@ function pkmnNameDisplay() {
     }
     const pkmn = allPkmn[dexId];
     output += `
-#workskin:has(.${charprefixes[0]} .i${dexIdInt}[open]) .mon:before,
-#workskin:has(.${charprefixes[1]} .i${dexIdInt}[open]) .${charprefixes[1]}mon:before {
+:has(.${charprefixes[0]} .i${dexIdInt}[open]) .mon:before,
+:has(.${charprefixes[1]} .i${dexIdInt}[open]) .${charprefixes[1]}mon:before {
   content: '${pkmn.name}';
 }`
     for(var f=0; f<pkmn.forms.length; f++){ 
       const form = pkmn.forms[f];
       if(form.form !== 'default') {
         output += `
-#workskin:has(.${charprefixes[0]} .i${dexIdInt}.v${f}[open]) .vari:before,
-#workskin:has(.${charprefixes[1]} .i${dexIdInt}.v${f}[open]) .${charprefixes[1]}vari:before {
+:has(.${charprefixes[0]} .i${dexIdInt}.v${f}[open]) .vari:before,
+:has(.${charprefixes[1]} .i${dexIdInt}.v${f}[open]) .${charprefixes[1]}vari:before {
   content: '${form.form}';
 }`
       }
@@ -837,14 +780,14 @@ function pkmnImageDisplay() {
     }
     const pkmn = allPkmn[dexId];
     output += `
-#workskin:has(.${charprefixes[0]} .i${dexIdInt}[open]) .hero-img,
-#workskin:has(.${charprefixes[1]} .i${dexIdInt}[open]) .friend-img {
+:has(.${charprefixes[0]} .i${dexIdInt}[open]) .hero-img,
+:has(.${charprefixes[1]} .i${dexIdInt}[open]) .friend-img {
   background: url(https://pkmn.short.gy/${dexIdInt}.png);
 }`
     for(let f=1; f<pkmn.forms.length; f++) {
       output += `
-#workskin:has(.${charprefixes[0]} .i${dexIdInt}.bv${f}[open]) .hero-img,
-#workskin:has(.${charprefixes[1]} .i${dexIdInt}.bv${f}[open]) .friend-img {
+:has(.${charprefixes[0]} .i${dexIdInt}.bv${f}[open]) .hero-img,
+:has(.${charprefixes[1]} .i${dexIdInt}.bv${f}[open]) .friend-img {
   background: url(https://pkmn.short.gy/${dexIdInt}v${f}.png);
 }`
     }
@@ -859,18 +802,18 @@ function generateCalcCSS() {
 function calcTypeBasedCSS() {
   // Team name and border colours
   let output = `
-#workskin .team:before {
+ .team:before {
   content: var(--team-prefix);
 }
-#workskin .team:after {
+ .team:after {
   content: var(--team-suffix)
 }
-#workskin .hero-img {
+ .hero-img {
   border-color: var(--${charprefixes[0]}t1-colour);
   border-right-color: var(--${charprefixes[0]}t2-colour);
   border-bottom-color: var(--${charprefixes[0]}t2-colour);
 }
-#workskin .partner-img {
+ .partner-img {
   border-color: var(--${charprefixes[1]}t1-colour);
   border-right-color: var(--${charprefixes[1]}t2-colour);
   border-bottom-color: var(--${charprefixes[1]}t2-colour);
@@ -878,12 +821,12 @@ function calcTypeBasedCSS() {
   for(let t=0; t<types.length; t++) {
     const typeobj = types[t];
     output += `
-#workskin:has(.${charprefixes[0]} .t1${typeobj.id.toString(18)}[open]) {
+:has(.${charprefixes[0]} .t1${typeobj.id.toString(18)}[open]) {
   --team-prefix: "${typeobj.teamPrefix}";
   --${charprefixes[0]}t1-color: ${typeobj.colour};
   --${charprefixes[0]}t2-color: ${typeobj.color};
 }
-#workskin:has(.${charprefixes[1]} .t1${typeobj.id.toString(18)}[open]) {
+:has(.${charprefixes[1]} .t1${typeobj.id.toString(18)}[open]) {
   --team-suffix: "${typeobj.teamSuffix}";
   --${charprefixes[1]}t1-color: ${typeobj.colour};
   --${charprefixes[1]}t2-color: ${typeobj.color};
@@ -892,10 +835,10 @@ function calcTypeBasedCSS() {
   for(let t=0; t<types.length; t++) {
     const typeobj = types[t];
     output += `
-#workskin:has(.${charprefixes[0]}.${charprefixes[0]} .t2${typeobj.id.toString(18)}[open]) {
+:has(.${charprefixes[0]}.${charprefixes[0]} .t2${typeobj.id.toString(18)}[open]) {
   --${charprefixes[0]}t2-color: ${typeobj.color};
 }
-#workskin:has(.${charprefixes[1]}.${charprefixes[1]} .t2${typeobj.id.toString(18)}[open]) {
+:has(.${charprefixes[1]}.${charprefixes[1]} .t2${typeobj.id.toString(18)}[open]) {
   --${charprefixes[1]}t2-color: ${typeobj.color};
 }`;
   }
@@ -905,31 +848,31 @@ function calcTypeBasedCSS() {
 function calcTextDisplayCSS() {
   let output = `
 ${kbDisplayCSS()}
-#workskin .name:before {
+ .name:before {
   content: var(--${charprefixes[0]}n0)var(--${charprefixes[0]}n1)var(--${charprefixes[0]}n2)var(--${charprefixes[0]}n3)var(--${charprefixes[0]}n4)var(--${charprefixes[0]}n5)var(--${charprefixes[0]}n6)var(--${charprefixes[0]}n7);
 }
-#workskin .${charprefixes[1]}name:before {
+ .${charprefixes[1]}name:before {
   content: var(--${charprefixes[1]}n0)var(--${charprefixes[1]}n1)var(--${charprefixes[1]}n2)var(--${charprefixes[1]}n3)var(--${charprefixes[1]}n4)var(--${charprefixes[1]}n5)var(--${charprefixes[1]}n6)var(--${charprefixes[1]}n7);
 }
-#workskin .nature:before {
+ .nature:before {
   content: var(--${charprefixes[0]}nat);
 }
-#workskin .${charprefixes[1]}nature:before {
+ .${charprefixes[1]}nature:before {
   content: var(--${charprefixes[1]}nat);
 }`;
   for(let c=0; c<26; c++) {
     for(let d=0; d<8; d++) {
       output += `
-#workskin:has(.${charprefixes[0]} .d${d}.e${String.fromCharCode(65+c)}[open]) { --${charprefixes[0]}n${d}: '${String.fromCharCode(65+c)}'; }
-#workskin:has(.${charprefixes[1]} .d${d}.e${String.fromCharCode(65+c)}[open]) { --${charprefixes[1]}n${d}: '${String.fromCharCode(65+c)}'; }`
+:has(.${charprefixes[0]} .d${d}.e${String.fromCharCode(65+c)}[open]) { --${charprefixes[0]}n${d}: '${String.fromCharCode(65+c)}'; }
+:has(.${charprefixes[1]} .d${d}.e${String.fromCharCode(65+c)}[open]) { --${charprefixes[1]}n${d}: '${String.fromCharCode(65+c)}'; }`
     }
   }
   
   for(let n=0; n<natures.length; n++) {
     const natureObj = natures[n];
     output += `
-#workskin:has(.${charprefixes[0]} .n${natureObj.id}[open]) { --${charprefixes[0]}nat: '${natureObj.name}'; }
-#workskin:has(.${charprefixes[1]} .n${natureObj.id}[open]) { --${charprefixes[1]}nat: '${natureObj.name}'; } `
+:has(.${charprefixes[0]} .n${natureObj.id}[open]) { --${charprefixes[0]}nat: '${natureObj.name}'; }
+:has(.${charprefixes[1]} .n${natureObj.id}[open]) { --${charprefixes[1]}nat: '${natureObj.name}'; } `
   }
   return output;
 }
@@ -937,16 +880,16 @@ ${kbDisplayCSS()}
 function calcPkmnBasedCSS() {
   let output = `
 ${pkmnPwdConfirm()}
-#workskin .mon:before {
+ .mon:before {
   content: var(--mon);
 }
-#workskin .${charprefixes[1]}mon:before {
+ .${charprefixes[1]}mon:before {
   content: var(--${charprefixes[1]}mon);
 }
-#workskin .${charprefixes[0]}img {
+ .${charprefixes[0]}img {
   background: var(--img);
 }
-#workskin .${charprefixes[1]}img {
+ .${charprefixes[1]}img {
   background: var(--${charprefixes[1]}img);
 }`;
   
@@ -955,23 +898,23 @@ ${pkmnPwdConfirm()}
     const dexIdInt = parseInt(p);
     if(dexIdInt >= gen9start) {break;}
     output += `
-#workskin:has(.${charprefixes[0]} .i${dexIdInt}[open]) {
+:has(.${charprefixes[0]} .i${dexIdInt}[open]) {
   --${charprefixes[0]}mon: "${pkmn.name}";
   --${charprefixes[0]}img: url(https://pkmn.short.gy/${p}.png);${pkmn.forms[0].form == 'default' ? '' : `
   --${charprefixes[1]}var: '${pkmn.forms[0].form }';`}
 }
-#workskin:has(.${charprefixes[1]} .i${dexIdInt}[open]) {
+:has(.${charprefixes[1]} .i${dexIdInt}[open]) {
   --${charprefixes[1]}mon: "${pkmn.name}";
   --${charprefixes[1]}img: url(https:\/\/pkmn.short.gy/${p}.png);${pkmn.forms[0].form == 'default' ? '' : `
   --${charprefixes[1]}var: '${pkmn.forms[0].form }';`}
 }`;
     for (var f=1; f<pkmn.forms.length; f++) {
       output += `
-#workskin:has(.${charprefixes[0]} .i${dexIdInt}.v${f}[open]) {
+:has(.${charprefixes[0]} .i${dexIdInt}.v${f}[open]) {
   --${charprefixes[1]}img: url(https:\/\/pkmn.short.gy/${p}v${f}.png);
   --${charprefixes[1]}var: '${pkmn.forms[f].form}';
 }
-#workskin:has(.${charprefixes[1]} .i${dexIdInt}.v${f}[open]) {
+:has(.${charprefixes[1]} .i${dexIdInt}.v${f}[open]) {
   --${charprefixes[1]}img: url(https:\/\/pkmn.short.gy/${p}v${f}.png);
   --${charprefixes[1]}var: '${pkmn.forms[f].form}';
 }`;
@@ -982,6 +925,220 @@ ${pkmnPwdConfirm()}
 
 window.addEventListener('load', function() {
   allPkmnAsync.then( () => {
-    kbtarget.innerHTML = generateKeyboardHTML() 
+    kbtarget.innerHTML = generateKeyboardHTML();
+    kbtarget2.innerHTML = generateKeyboardHTML2();
   });
 })
+
+function generateKeyboardHTML2() {
+  return kbdisplayHTML() + kbbuttondisplayHTML() + characterNameEntries() + characterPwdEntries2();
+}
+
+function characterPwdEntries2() {
+  // Two separate password blocks: Hero and Friend
+  for(let c=0; c<charprefixes.length; c++) {
+    charHTML += `
+    <div class="${charprefixes[c]} keyboard-entry kb kb_password">
+      ${generatePwdInputs2(charprefixes[c])}
+    </div>`;
+  }
+  return charHTML;
+}
+function generatePwdInputs2(heroType) {
+  return generateNameInputs2() + generateNatureInput2() + generateHeroInfo2(heroType) + generateMiscInfo2() + generatePkmnList2();
+}
+function generateNewNameInputs2() {
+  let output = '';
+  for(let d=0; d<8; d++) {
+    output += `<div class="$d{d}">` + '\n';
+    let row = 1, col = 1;
+    for(let a=0; a<nameCharacters.length; a++) {
+      output += '\n\t' + generatePwdInput(d, {row: row, col: col}, {e: nameCharacters[a]});
+      col ++;
+      if(col > 13) {
+        row++;
+        col = 1;
+      }
+    }
+    output += '\n</div>'
+  }
+  return output;
+}
+function generateNatureInput2() {
+  // Nature code plus pokedex binary digit (50 input digits used)
+  const rowCols = getRowCols();
+  const pkmnBinaryPrefix = binaryprefixes[natureDigitId]
+  let output = '';
+  for(let n=0; n<natures.length; n++){
+    for(let p=0; p<2; p++){
+      const nature = natures[n];
+      const data = { n: nature.id, [pkmnBinaryPrefix]: p }
+      if(nature.like != nature.dislike) {
+        data['ym'] = flavourLookup[nature.like];
+        data['yk'] = flavourLookup[nature.dislike];
+      }
+      output += '\n\t' + generatePwdInput(natureDigitId, rowCols.pop(), data);
+    }
+  }
+  output += generateFillerInputs(natureDigitId, rowCols);
+  return `  <div class="d${natureDigitId}>
+      ${output}
+  </div>`;
+
+}
+
+function generateHeroInfo2(heroType) {
+  const rowCols = getRowCols();
+  const pkmnBinaryPrefix = binaryprefixes[parseInt(`0x${heroInfoDigitId}`)];
+  let output = '';
+  for (let p=0; p<2; p++) {
+    if(herotype === charprefixes[0]) { // Hero pkmn
+      // Type ID of first partner
+      for (let t=0; t<types.length; t++) {
+        const data = {z: t, [pkmnBinaryPrefix]: p }
+        output += '\n\t' + generatePwdInput(heroInfoDigitId, rowCols.pop(), data)
+      }
+    } else { // Partner pkmn
+        for(let o=0; o<2; o++) {
+          const data = {o: o, [pkmnBinaryPrefix]: p };
+          output += '\n\t' + generatePwdInput(heroInfoDigitId, rowCols.pop(), data);
+        }  
+    }
+  }
+  output += generateFillerInputs(heroInfoDigitId, rowCols);
+  return `  <div class="d${heroInfoDigitId}>
+      ${output}
+  </div>`;
+}
+
+function generateMiscInfo2() {
+
+}
+
+function generatePkmnList2() {
+  let rowCols = [];
+  let output = '';
+
+  for(let dexId in allPkmn) {
+    if(isNaN(dexId)) { continue; }
+
+    const dexIdInt = parseInt(dexId);
+
+    const pkmn = allPkmn[dexId];
+    const evoFam = pkmn.evolutionFamily;
+    const evoFamId = evoFam.id;
+
+    const dexIdBin = idToBinaryDigits(dexIdInt);
+    const forms = pkmn.forms;
+    
+    const data = { i: dexId }
+    
+    for(let d=0; d<binaryprefixes.length; d++) {
+      const binprefix = 'b' + binaryprefixes[d];
+      data[binprefix] = dexIdBin[d];
+    }
+    
+    for(let f=0; f<forms.length; f++){
+      const form = forms[f];
+      data.bv = f;
+      data.s = []; // Type strengths (resistances)
+      data.w = []; // Type weaknesses
+      data.n = []; // Types nullified
+      
+      let type1 = types.find(t => t.name.toLowerCase() == form.type1.toLowerCase());
+      let type2 = types.find(t => t.name.toLowerCase() == form.type2.toLowerCase());
+      
+      if (type1.name.toLowerCase() === 'normal' && type2) {
+        // Swap things like "Normal/Flying" to make 'Normal' the seconadary type
+        type1 = type2;
+        type2 = types[0];
+      }
+      data.t1 = type1.id.toString(18);
+      if(type2) {
+        data.t2 = type2.id.toString(18);
+      }
+      const allResist = type1.strong.concat( type2?.strong || [] );
+      const allWeak = type1.weak.concat( type2?.weak || [] );
+      const allNull = type1.nullify.concat( type2?.nullify || [] );
+      
+      for(let r=0; r<allResist.length; r++){
+        const resistId = allResist[r];
+        if(!allNull.includes(resistId) && !allWeak.includes(resistId)){
+          data.s.push(resistId.toString(18));
+        }
+      }
+      for(let w=0; w<allWeak.length; w++) {
+        const weakId = allWeak[w];
+        if(!allNull.includes(weakId) && !allResist.includes(weakId)) {
+          data.w.push(weakId.toString(18));
+        }
+      }
+      for(let n=0; n<allNull.length; n++) {
+        // Nullification overrides everything
+        data.n.push(allNull[n].toString(18));
+      }
+      if(!rowCols.length) {
+        rowCols = getRowCols();
+      }
+      console.log('TIME TO POKÉ');
+      output += '\n\t' + generatePwdInput(pkmnConfirmDigitId, rowCols.pop(), data);
+    }
+    
+  }
+  // Add an 'invalid' entry in each row/col position
+  rowCols = getRowCols();
+  output += generateFillerInputs(pkmnConfirmDigitId, rowCols);
+
+  return output;  
+
+}
+
+/*
+function characterPwdEntries() {
+  let charHTML = '';
+  for(let c=0; c<charprefixes.length; c++) {
+    charHTML += `
+    <div class="${charprefixes[c]} keyboard-entry kb kb_password">
+      ${generatePwdInputs(charprefixes[c])}
+    </div>`;
+  }
+  return charHTML;
+
+  function generateNameInputs(){
+  let nameInputs = '';
+  for(let i=0; i<8; i++) {
+    nameInputs += `<div class="d${i}">${generateNameInput(i)}</div>`;
+  }
+  return nameInputs;
+}
+
+function generateNewNameInputs() {
+  let output = '';
+  for(let d=0; d<8; d++) {
+    let row = 1, col = 1;
+    for(let a=0; a<nameCharacters.length; a++) {
+      output += '\n\t' + generatePwdInput(d, {row: row, col: col}, {e: nameCharacters[a]});
+      col ++;
+      if(col > 13) {
+        row++;
+        col = 1;
+      }
+    }
+  }
+  return output;
+}
+
+function generateNameInput(i){
+  const pkmnBinaryPrefix = binaryprefixes[i];
+  const rowCols = getRowCols();
+  
+  let output = '';
+  for(let p=0; p<2; p++) {
+    for(let a=0; a<nameCharacters.length; a++) {
+      output += '\n\t' + generatePwdInput(i, rowCols.pop(), {e: nameCharacters[a], [pkmnBinaryPrefix]: p})
+    }
+  }
+  output += generateFillerInputs(i, rowCols);
+  return output;
+}
+*/

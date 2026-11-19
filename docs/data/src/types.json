@@ -1,0 +1,182 @@
+[
+  {
+    "id": 0,
+    "colour": "#9fa19f",
+    "name": "Normal",
+    "teamPrefix": "Explorer",
+    "teamSuffix": " Crew",
+    "strong": [],
+    "weak": [ 1 ],
+    "nullify": [ 7 ]
+  },
+  {
+    "id": 1,
+    "colour": "#ff8000",
+    "name": "Fighting",
+    "teamPrefix": "Fist",
+    "teamSuffix": " Warriors",
+    "strong": [ 5, 6, 16 ],
+    "weak": [ 2, 13, 17 ],
+    "nullify": []
+  },
+  {
+    "id": 2,
+    "colour": "#81b9ef",
+    "name": "Flying",
+    "teamPrefix": "Wing",
+    "teamSuffix": "s From Above",
+    "strong": [ 1, 6 ],
+    "weak": [ 5, 12, 14 ],
+    "nullify": [ 4 ]
+  },
+  {
+    "id": 3,
+    "colour": "#9141cb",
+    "name": "Poison",
+    "teamPrefix": "Punk",
+    "teamSuffix": "bane",
+    "strong": [ 1, 3, 6, 11, 17 ],
+    "weak": [ 4, 13 ],
+    "nullify": []
+  },
+  {
+    "id": 4,
+    "colour": "#915121",
+    "name": "Ground",
+    "teamPrefix": "Sand",
+    "teamSuffix": "s of Destiny",
+    "strong": [ 3, 5 ],
+    "weak": [ 10, 11, 14 ],
+    "nullify": [ 12 ]
+  },
+  {
+    "id": 5,
+    "colour": "#afa981",
+    "name": "Rock",
+    "teamPrefix": "Boulder",
+    "teamSuffix": " Defenders",
+    "strong": [ 0, 2, 3, 9 ],
+    "weak": [ 1, 4, 8, 10, 11 ],
+    "nullify": []
+  },
+  {
+    "id": 6,
+    "colour": "#91a119",
+    "name": "Bug",
+    "teamPrefix": "Web",
+    "teamSuffix": " Buddies",
+    "strong": [ 1, 4, 11 ],
+    "weak": [ 2, 4, 11 ],
+    "nullify": []
+  },
+  {
+    "id": 7,
+    "colour": "#704170",
+    "name": "Ghost",
+    "teamPrefix": "Shadow",
+    "teamSuffix": "s of Memory",
+    "strong": [ 3, 6 ],
+    "weak": [ 7, 16 ],
+    "nullify": [ 0, 1 ]
+  },
+  {
+    "id": 8,
+    "colour": "#60a1b8",
+    "name": "Steel",
+    "teamPrefix": "Knight",
+    "teamSuffix": "s of Justice",
+    "strong": [ 0, 2, 5, 6, 8, 11, 13, 14, 15, 17 ],
+    "weak": [ 1, 4, 9 ],
+    "nullify": [ 3 ]
+  },
+  {
+    "id": 9,
+    "colour": "#e62829",
+    "name": "Fire",
+    "teamPrefix": "Blaze",
+    "teamSuffix": " Inferno",
+    "strong": [ 6, 8, 9, 11, 14, 17 ],
+    "weak": [ 4, 5, 10 ],
+    "nullify": []
+  },
+  {
+    "id": 10,
+    "colour": "#2980ef",
+    "name": "Water",
+    "teamPrefix": "Wave",
+    "teamSuffix": " Surfers",
+    "strong": [ 8, 9, 10, 14 ],
+    "weak": [ 11, 12 ],
+    "nullify": []
+  },
+  {
+    "id": 11,
+    "colour": "#3fa129",
+    "name": "Grass",
+    "teamPrefix": "Tree",
+    "teamSuffix": "garden",
+    "strong": [ 4, 10, 11, 12 ],
+    "weak": [ 2, 3, 6, 9, 14 ],
+    "nullify": []
+  },
+  {
+    "id": 12,
+    "colour": "#fac000",
+    "name": "Electric",
+    "teamPrefix": "Spark",
+    "teamSuffix": "shock",
+    "strong": [ 2, 8, 12 ],
+    "weak": [ 4 ],
+    "nullify": []
+  },
+  {
+    "id": 13,
+    "colour": "#ef4179",
+    "name": "Psychic",
+    "teamPrefix": "Vision",
+    "teamSuffix": "mancers",
+    "strong": [ 1, 13 ],
+    "weak": [ 6, 7, 16 ],
+    "nullify": []
+  },
+  {
+    "id": 14,
+    "colour": "#3dcef3",
+    "name": "Ice",
+    "teamPrefix": "Squall",
+    "teamSuffix": "haven",
+    "strong": [ 14 ],
+    "weak": [ 1, 5, 8, 9 ],
+    "nullify": []
+  },
+  {
+    "id": 15,
+    "colour": "#5060e1",
+    "name": "Dragon",
+    "teamPrefix": "Realm",
+    "teamSuffix": "s of Rage",
+    "strong": [ 9, 10, 11, 12 ],
+    "weak": [ 14, 15, 17 ],
+    "nullify": []
+  },
+  {
+    "id": 16,
+    "colour": "#624d4e",
+    "name": "Dark",
+    "teamPrefix": "Power",
+    "teamSuffix": " Offensive",
+    "strong": [ 7, 16 ],
+    "weak": [ 1, 6, 17 ],
+    "nullify": [ 13 ]
+  },
+  {
+    "id": 17,
+    "colour": "#ef70ef",
+    "name": "Fairy",
+    "teamPrefix": "Disco",
+    "teamSuffix": " Magic",
+    "strong": [ 1, 6, 16 ],
+    "weak": [ 3, 8 ],
+    "nullify": [ 15 ]
+  }
+]

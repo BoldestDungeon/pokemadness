@@ -86,7 +86,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -181,7 +182,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -276,7 +278,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -371,7 +374,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -466,7 +470,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -561,7 +566,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -656,7 +662,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -751,7 +758,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -846,7 +854,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -941,7 +950,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -1035,7 +1045,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -1129,7 +1140,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -1223,7 +1235,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -1317,7 +1330,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -1411,7 +1425,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -1505,7 +1520,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -1599,7 +1615,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -1693,7 +1710,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -1814,7 +1832,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -1935,7 +1954,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -2006,7 +2026,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -2077,7 +2098,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -2148,7 +2170,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -2220,7 +2243,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -2367,7 +2391,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -2534,7 +2559,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -2655,7 +2681,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -2775,7 +2802,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -2869,7 +2897,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -2964,7 +2993,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -3058,7 +3088,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -3152,7 +3183,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -3247,7 +3279,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -3342,7 +3375,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -3437,7 +3471,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy"
@@ -3531,7 +3566,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy"
@@ -3651,7 +3687,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -3771,7 +3808,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -3865,7 +3903,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy"
@@ -3959,7 +3998,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy"
@@ -4053,7 +4093,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -4147,7 +4188,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -4293,7 +4335,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass"
@@ -4439,7 +4482,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass"
@@ -4585,7 +4629,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass"
@@ -4656,7 +4701,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug",
@@ -4728,7 +4774,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug",
@@ -4800,7 +4847,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -4871,7 +4919,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -4991,7 +5040,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -5111,7 +5161,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -5281,7 +5332,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -5431,7 +5483,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -5502,7 +5555,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -5574,7 +5628,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -5670,7 +5725,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -5765,7 +5821,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -5885,7 +5942,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -6005,7 +6063,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -6151,7 +6210,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1"
@@ -6297,7 +6357,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1"
@@ -6443,7 +6504,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1"
@@ -6538,7 +6600,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -6633,7 +6696,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -6728,7 +6792,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -6823,7 +6888,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -6918,7 +6984,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -7013,7 +7080,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -7107,7 +7175,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass"
@@ -7201,7 +7270,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass"
@@ -7295,7 +7365,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass"
@@ -7366,7 +7437,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -7437,7 +7509,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -7604,7 +7677,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -7771,7 +7845,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -7938,7 +8013,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -8058,7 +8134,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -8178,7 +8255,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -8356,7 +8434,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -8535,7 +8614,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -8631,7 +8711,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -8726,7 +8807,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -8823,7 +8905,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying",
@@ -8895,7 +8978,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -8966,7 +9050,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -9037,7 +9122,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -9109,7 +9195,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -9230,7 +9317,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -9350,7 +9438,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -9421,7 +9510,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -9492,7 +9582,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -9587,7 +9678,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -9682,7 +9774,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -9777,7 +9870,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -9849,7 +9943,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -9920,7 +10015,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -9991,7 +10087,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -10062,7 +10159,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -10133,7 +10231,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -10253,7 +10352,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -10373,7 +10473,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -10473,7 +10574,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -10593,7 +10695,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -10693,7 +10796,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster"
@@ -10813,7 +10917,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster"
@@ -10942,7 +11047,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -11071,7 +11177,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -11142,7 +11249,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster"
@@ -11242,7 +11350,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -11362,7 +11471,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -11457,7 +11567,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -11553,7 +11664,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -11648,7 +11760,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy"
@@ -11719,7 +11832,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -11766,7 +11880,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Monster"
@@ -11860,7 +11975,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -11955,7 +12071,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -12027,7 +12144,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -12098,7 +12216,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -12169,7 +12288,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -12240,7 +12360,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -12383,7 +12504,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -12484,7 +12606,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -12555,7 +12678,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -12650,7 +12774,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -12745,7 +12870,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -12792,7 +12918,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Bug"
@@ -12914,7 +13041,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -12985,7 +13113,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2",
@@ -13057,7 +13186,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2",
@@ -13105,7 +13235,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Monster",
@@ -13153,7 +13284,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Ditto"
@@ -13437,7 +13569,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -13721,7 +13854,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -14005,7 +14139,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -14289,7 +14424,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -14385,7 +14521,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -14456,7 +14593,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -14528,7 +14666,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -14600,7 +14739,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -14672,7 +14812,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -14720,7 +14861,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Flying"
@@ -14791,7 +14933,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster"
@@ -14864,7 +15007,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -14937,7 +15081,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -15010,7 +15155,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -15104,7 +15250,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -15199,7 +15346,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -15294,7 +15442,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -15342,7 +15491,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -15389,7 +15539,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -15483,7 +15634,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -15578,7 +15730,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -15673,7 +15826,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -15820,7 +15974,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -15966,7 +16121,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -16132,7 +16288,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -16226,7 +16383,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -16321,7 +16479,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -16416,7 +16575,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -16488,7 +16648,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -16559,7 +16720,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -16630,7 +16792,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -16701,7 +16864,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -16772,7 +16936,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -16843,7 +17008,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -16914,7 +17080,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -16985,7 +17152,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -17079,7 +17247,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -17150,7 +17319,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -17221,7 +17391,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -17367,7 +17538,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -17461,7 +17633,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -17555,7 +17728,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -17649,7 +17823,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -17743,7 +17918,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying",
@@ -17815,7 +17991,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -17886,7 +18063,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -17980,7 +18158,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -18075,7 +18254,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -18170,7 +18350,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -18317,7 +18498,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass"
@@ -18411,7 +18593,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -18506,7 +18689,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -18578,7 +18762,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -18724,7 +18909,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1"
@@ -18818,7 +19004,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy",
@@ -18913,7 +19100,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy",
@@ -19008,7 +19196,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy",
@@ -19080,7 +19269,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -19151,7 +19341,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -19222,7 +19413,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -19293,7 +19485,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -19413,7 +19606,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -19514,7 +19708,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -19799,7 +19994,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -20083,7 +20279,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -20154,7 +20351,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -20332,7 +20530,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -20404,7 +20603,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -20613,7 +20813,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -20684,7 +20885,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -20755,7 +20957,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -20826,7 +21029,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -20897,7 +21101,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -20968,7 +21173,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -21040,7 +21246,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -21112,7 +21319,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -21183,7 +21391,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -21255,7 +21464,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -21355,7 +21565,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -21456,7 +21667,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -21503,7 +21715,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Bug"
@@ -21550,7 +21763,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Bug"
@@ -21672,7 +21886,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -21772,7 +21987,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -21872,7 +22088,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -21943,7 +22160,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -22014,7 +22232,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -22108,7 +22327,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -22202,7 +22422,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -22299,7 +22520,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -22371,7 +22593,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -22443,7 +22666,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -22491,7 +22715,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Water 1",
@@ -22563,7 +22788,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1"
@@ -22610,7 +22836,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Flying"
@@ -22681,7 +22908,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -22752,7 +22980,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -22846,7 +23075,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -22918,7 +23148,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -22989,7 +23220,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -23085,7 +23317,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -23156,7 +23389,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -23203,7 +23437,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -23332,7 +23567,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -23461,7 +23697,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -23532,7 +23769,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -23627,7 +23865,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -23722,7 +23961,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -23769,7 +24009,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -23863,7 +24104,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy"
@@ -23910,7 +24152,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -23957,7 +24200,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -24004,7 +24248,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -24098,7 +24343,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster"
@@ -24192,7 +24438,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster"
@@ -24286,7 +24533,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster"
@@ -24333,7 +24581,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -24380,7 +24629,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -24427,7 +24677,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -24521,7 +24772,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -24616,7 +24868,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -24711,7 +24964,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -24806,7 +25060,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -24900,7 +25155,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -24994,7 +25250,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -25088,7 +25345,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -25183,7 +25441,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -25278,7 +25537,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -25350,7 +25610,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -25421,7 +25682,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -25564,7 +25826,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -25707,7 +25970,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -25853,7 +26117,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -25999,7 +26264,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -26145,7 +26411,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -26291,7 +26558,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -26437,7 +26705,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -26531,7 +26800,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -26626,7 +26896,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -26721,7 +26992,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -26816,7 +27088,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -26911,7 +27184,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -27006,7 +27280,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -27078,7 +27353,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -27149,7 +27425,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -27220,7 +27497,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -27292,7 +27570,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -27439,7 +27718,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like",
@@ -27586,7 +27866,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like",
@@ -27733,7 +28014,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like",
@@ -27805,7 +28087,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -27877,7 +28160,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -27949,7 +28233,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Fairy",
@@ -28021,7 +28306,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Fairy",
@@ -28116,7 +28402,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -28210,7 +28497,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -28304,7 +28592,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -28405,7 +28694,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -28506,7 +28796,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -28607,7 +28898,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -28701,7 +28993,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -28796,7 +29089,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -28891,7 +29185,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -28963,7 +29258,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -29034,7 +29330,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -29128,7 +29425,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -29200,7 +29498,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -29271,7 +29570,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -29343,7 +29643,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -29391,7 +29692,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Human-Like"
@@ -29438,7 +29740,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field",
@@ -29533,7 +29836,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster"
@@ -29627,7 +29931,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster"
@@ -29721,7 +30026,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster"
@@ -29792,7 +30098,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -29863,7 +30170,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -29934,7 +30242,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -30005,7 +30314,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -30052,7 +30362,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Fairy"
@@ -30099,7 +30410,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Fairy"
@@ -30146,7 +30458,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Bug",
@@ -30194,7 +30507,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Bug",
@@ -30289,7 +30603,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy",
@@ -30361,7 +30676,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -30432,7 +30748,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -30503,7 +30820,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -30574,7 +30892,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -30645,7 +30964,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -30717,7 +31037,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -30789,7 +31110,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -30860,7 +31182,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -30907,7 +31230,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -30978,7 +31302,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -31049,7 +31374,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -31096,7 +31422,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field",
@@ -31191,7 +31518,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug",
@@ -31286,7 +31614,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug",
@@ -31381,7 +31710,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug",
@@ -31453,7 +31783,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass",
@@ -31525,7 +31856,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass",
@@ -31597,7 +31929,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying",
@@ -31669,7 +32002,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying",
@@ -31717,7 +32051,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -31764,7 +32099,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field",
@@ -31812,7 +32148,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Mineral"
@@ -31859,7 +32196,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Mineral"
@@ -31930,7 +32268,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -32001,7 +32340,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -32072,7 +32412,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -32144,7 +32485,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -32216,7 +32558,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -32287,7 +32630,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -32358,7 +32702,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -32429,7 +32774,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -32500,7 +32846,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -32571,7 +32918,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -32643,7 +32991,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -32716,7 +33065,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -32824,7 +33174,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Fairy",
@@ -32872,7 +33223,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -32943,7 +33295,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -33014,7 +33367,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -33109,7 +33463,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -33204,7 +33559,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -33251,7 +33607,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Monster",
@@ -33323,7 +33680,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -33370,7 +33728,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -33441,7 +33800,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -33541,7 +33901,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Fairy",
@@ -33642,7 +34003,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Fairy",
@@ -33737,7 +34099,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -33832,7 +34195,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -33927,7 +34291,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -34028,7 +34393,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1"
@@ -34128,7 +34494,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1"
@@ -34228,7 +34595,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1"
@@ -34275,7 +34643,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Water 1",
@@ -34323,7 +34692,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Water 2"
@@ -34417,7 +34787,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Dragon"
@@ -34511,7 +34882,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Dragon"
@@ -34605,7 +34977,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Dragon"
@@ -34699,7 +35072,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -34793,7 +35167,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -34887,7 +35262,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -34934,7 +35310,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -34981,7 +35358,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -35028,7 +35406,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -35075,7 +35454,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -35122,7 +35502,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -35169,7 +35550,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -35216,7 +35598,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -35263,7 +35646,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -35310,7 +35694,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -35435,7 +35820,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -35529,7 +35915,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -35624,7 +36011,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -35719,7 +36107,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -35814,7 +36203,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -35909,7 +36299,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -36004,7 +36395,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -36099,7 +36491,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -36194,7 +36587,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -36289,7 +36683,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -36384,7 +36779,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -36478,7 +36874,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -36572,7 +36969,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -36643,7 +37041,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -36715,7 +37114,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -36787,7 +37187,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -36858,7 +37259,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -36952,7 +37354,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -37046,7 +37449,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -37140,7 +37544,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -37234,7 +37639,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -37328,7 +37734,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy",
@@ -37400,7 +37807,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster"
@@ -37471,7 +37879,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster"
@@ -37542,7 +37951,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster"
@@ -37613,7 +38023,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster"
@@ -37809,7 +38220,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -38007,7 +38419,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -38166,7 +38579,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -38237,7 +38651,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -38308,7 +38723,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -38355,7 +38771,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field",
@@ -38427,7 +38844,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -38499,7 +38917,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -38571,7 +38990,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Fairy",
@@ -38663,7 +39083,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Fairy",
@@ -38783,7 +39204,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -38903,7 +39325,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -38975,7 +39398,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -39046,7 +39470,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -39117,7 +39542,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -39188,7 +39614,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -39260,7 +39687,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -39332,7 +39760,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -39403,7 +39832,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -39474,7 +39904,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -39545,7 +39976,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -39616,7 +40048,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -39687,7 +40120,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -39758,7 +40192,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -39829,7 +40264,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -39900,7 +40336,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -39971,7 +40408,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -40094,7 +40532,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -40188,7 +40627,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -40235,7 +40675,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Flying"
@@ -40282,7 +40723,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Amorphous"
@@ -40376,7 +40818,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -40471,7 +40914,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -40566,7 +41010,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -40638,7 +41083,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -40709,7 +41155,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -40780,7 +41227,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -40852,7 +41300,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -40923,7 +41372,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -40994,7 +41444,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug",
@@ -41066,7 +41517,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug",
@@ -41138,7 +41590,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -41209,7 +41662,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -41256,7 +41710,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Grass"
@@ -41327,7 +41782,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -41398,7 +41854,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -41469,7 +41926,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -41540,7 +41998,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -41612,7 +42071,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -41715,7 +42175,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -41810,7 +42271,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -41881,7 +42343,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster"
@@ -41976,7 +42439,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -42048,7 +42512,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -42143,7 +42608,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -42238,7 +42704,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -42332,7 +42799,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying",
@@ -42404,7 +42872,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -42688,7 +43157,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -42972,7 +43442,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -43044,7 +43515,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -43138,7 +43610,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -43246,7 +43719,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -43407,7 +43881,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like",
@@ -43494,7 +43969,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -43606,7 +44082,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -43723,7 +44200,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Fairy",
@@ -43989,7 +44467,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Amorphous"
@@ -44051,7 +44530,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -44098,7 +44578,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -44145,7 +44626,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -44218,7 +44700,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -44291,7 +44774,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -44338,7 +44822,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -44385,7 +44870,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -44458,7 +44944,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -44505,7 +44992,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -44552,7 +45040,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Water 1",
@@ -44600,7 +45089,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Water 1",
@@ -44648,7 +45138,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -44721,7 +45212,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -44768,7 +45260,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -44815,7 +45308,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -44909,7 +45403,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -45004,7 +45499,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -45099,7 +45595,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -45194,7 +45691,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -45288,7 +45786,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -45382,7 +45881,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -45528,7 +46028,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -45674,7 +46175,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -45840,7 +46342,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -45911,7 +46414,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -45982,7 +46486,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -46076,7 +46581,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -46170,7 +46676,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -46264,7 +46771,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -46335,7 +46843,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -46406,7 +46915,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -46477,7 +46987,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -46548,7 +47059,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -46619,7 +47131,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -46690,7 +47203,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -46761,7 +47275,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -46832,7 +47347,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -46903,7 +47419,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -46974,7 +47491,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -47068,7 +47586,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -47162,7 +47681,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -47256,7 +47776,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -47327,7 +47848,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -47398,7 +47920,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -47492,7 +48015,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -47586,7 +48110,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -47680,7 +48205,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -47751,7 +48277,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -47823,7 +48350,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -47895,7 +48423,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -47966,7 +48495,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -48013,7 +48543,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Fairy"
@@ -48107,7 +48638,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -48201,7 +48733,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -48295,7 +48828,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -48389,7 +48923,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1"
@@ -48483,7 +49018,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1"
@@ -48577,7 +49113,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1"
@@ -48624,7 +49161,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Human-Like"
@@ -48671,7 +49209,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Human-Like"
@@ -48765,7 +49304,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -48859,7 +49399,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -48953,7 +49494,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -49047,7 +49589,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -49141,7 +49684,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -49235,7 +49779,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -49306,7 +49851,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass",
@@ -49378,7 +49924,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass",
@@ -49479,7 +50026,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -49599,7 +50147,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -49722,7 +50271,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -49816,7 +50366,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -49910,7 +50461,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -50004,7 +50556,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -50124,7 +50677,8 @@
             "formId": 2
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -50283,7 +50837,8 @@
             "formId": 2
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -50330,7 +50885,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Grass"
@@ -50401,7 +50957,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug",
@@ -50473,7 +51030,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug",
@@ -50545,7 +51103,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -50617,7 +51176,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -50665,7 +51225,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Flying"
@@ -50785,7 +51346,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral",
@@ -50886,7 +51448,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral",
@@ -50958,7 +51521,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -51030,7 +51594,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -51102,7 +51667,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying",
@@ -51174,7 +51740,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying",
@@ -51246,7 +51813,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -51317,7 +51885,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -51437,7 +52006,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -51557,7 +52127,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -51628,7 +52199,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -51699,7 +52271,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -51793,7 +52366,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -51887,7 +52461,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -51981,7 +52556,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -52075,7 +52651,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -52169,7 +52746,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -52263,7 +52841,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -52334,7 +52913,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -52406,7 +52986,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -52501,7 +53082,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -52595,7 +53177,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -52689,7 +53272,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -52904,7 +53488,8 @@
             "formId": 3
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -53119,7 +53704,8 @@
             "formId": 3
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -53166,7 +53752,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -53237,7 +53824,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -53308,7 +53896,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -53379,7 +53968,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -53450,7 +54040,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -53521,7 +54112,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -53592,7 +54184,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -53639,7 +54232,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Water 1",
@@ -53711,7 +54305,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -53782,7 +54377,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -53853,7 +54449,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass",
@@ -53925,7 +54522,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass",
@@ -54020,7 +54618,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -54114,7 +54713,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -54208,7 +54808,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -54302,7 +54903,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -54396,7 +54998,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -54490,7 +55093,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -54561,7 +55165,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -54632,7 +55237,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -54726,7 +55332,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -54820,7 +55427,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -54914,7 +55522,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous"
@@ -55008,7 +55617,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -55103,7 +55713,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -55198,7 +55809,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Monster",
@@ -55270,7 +55882,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -55341,7 +55954,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -55388,7 +56002,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Mineral"
@@ -55459,7 +56074,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -55530,7 +56146,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -55603,7 +56220,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Water 1",
@@ -55675,7 +56293,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -55747,7 +56366,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -55795,7 +56415,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Dragon",
@@ -55867,7 +56488,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -55938,7 +56560,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral"
@@ -56032,7 +56655,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -56126,7 +56750,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -56173,7 +56798,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -56273,7 +56899,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -56393,7 +57020,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -56464,7 +57092,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -56535,7 +57164,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying"
@@ -56582,7 +57212,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -56629,7 +57260,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Bug"
@@ -56723,7 +57355,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Dragon"
@@ -56817,7 +57450,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Dragon"
@@ -56911,7 +57545,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Dragon"
@@ -56982,7 +57617,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -57053,7 +57689,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -57100,7 +57737,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -57147,7 +57785,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -57194,7 +57833,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -57267,7 +57907,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -57340,7 +57981,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -57387,7 +58029,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -57434,7 +58077,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -57507,7 +58151,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -57606,7 +58251,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -57679,7 +58325,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -57752,7 +58399,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -57875,7 +58523,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -57969,7 +58618,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -58063,7 +58713,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -58157,7 +58808,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -58251,7 +58903,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -58345,7 +58998,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -58439,7 +59093,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -58545,7 +59200,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1"
@@ -58651,7 +59307,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1"
@@ -58757,7 +59414,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1"
@@ -58828,7 +59486,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -58899,7 +59558,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -58993,7 +59653,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -59087,7 +59748,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -59181,7 +59843,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -59275,7 +59938,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -59369,7 +60033,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -59463,7 +60128,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -59534,7 +60200,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -59605,7 +60272,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -59781,7 +60449,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy"
@@ -59957,7 +60626,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy"
@@ -60133,7 +60803,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy"
@@ -60204,7 +60875,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -60275,7 +60947,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -60346,7 +61019,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -60418,7 +61092,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -60466,7 +61141,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -60537,7 +61213,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -60627,7 +61304,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -60721,7 +61399,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -60815,7 +61494,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -60928,7 +61608,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -60999,7 +61680,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Fairy"
@@ -61070,7 +61752,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Fairy"
@@ -61141,7 +61824,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Fairy"
@@ -61212,7 +61896,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Fairy"
@@ -61283,7 +61968,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -61355,7 +62041,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -61427,7 +62114,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -61498,7 +62186,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -61569,7 +62258,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -61641,7 +62331,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -61713,7 +62404,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -61785,7 +62477,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -61857,7 +62550,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -61929,7 +62623,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -62001,7 +62696,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -62073,7 +62769,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -62145,7 +62842,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster"
@@ -62216,7 +62914,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster"
@@ -62500,7 +63199,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -62547,7 +63247,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Flying",
@@ -62595,7 +63296,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field",
@@ -62643,7 +63345,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Fairy",
@@ -62790,7 +63493,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Dragon"
@@ -62956,7 +63660,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Dragon"
@@ -63122,7 +63827,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Dragon"
@@ -63169,7 +63875,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Mineral"
@@ -63240,7 +63947,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass",
@@ -63312,7 +64020,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass",
@@ -63444,7 +64153,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -63575,7 +64285,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -63675,7 +64386,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -63796,7 +64508,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -63868,7 +64581,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying",
@@ -63940,7 +64654,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying",
@@ -64013,7 +64728,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -64060,7 +64776,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -64159,7 +64876,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -64206,7 +64924,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -64279,7 +64998,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -64326,7 +65046,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -64472,7 +65193,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -64618,7 +65340,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -64784,7 +65507,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -64878,7 +65602,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -64972,7 +65697,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -65066,7 +65792,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -65160,7 +65887,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -65255,7 +65983,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -65350,7 +66079,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -65445,7 +66175,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -65539,7 +66270,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -65633,7 +66365,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -65704,7 +66437,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -65775,7 +66509,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -65870,7 +66605,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -65965,7 +66701,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -66060,7 +66797,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -66132,7 +66870,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -66204,7 +66943,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 3"
@@ -66328,7 +67068,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Flying"
@@ -66399,7 +67140,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug",
@@ -66471,7 +67213,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug",
@@ -66601,7 +67344,8 @@
             "formId": 2
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -66770,7 +67514,8 @@
             "formId": 2
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -66843,7 +67588,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Water 2"
@@ -66914,7 +67660,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1"
@@ -66985,7 +67732,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1"
@@ -67056,7 +67804,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -67127,7 +67876,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -67198,7 +67948,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -67270,7 +68021,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -67342,7 +68094,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -67413,7 +68166,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -67484,7 +68238,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -67555,7 +68310,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -67626,7 +68382,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -67698,7 +68455,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -67770,7 +68528,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -67841,7 +68600,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -67935,7 +68695,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass"
@@ -68029,7 +68790,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass"
@@ -68123,7 +68885,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass"
@@ -68170,7 +68933,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Grass"
@@ -68217,7 +68981,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -68264,7 +69029,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -68335,7 +69101,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug",
@@ -68407,7 +69174,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug",
@@ -68479,7 +69247,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -68550,7 +69319,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Amorphous"
@@ -68597,7 +69367,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Water 1"
@@ -68668,7 +69439,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -68739,7 +69511,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -68811,7 +69584,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Mineral"
@@ -68858,7 +69632,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field"
@@ -68905,7 +69680,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Monster",
@@ -68953,7 +69729,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field",
@@ -69026,7 +69803,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Amorphous"
@@ -69073,7 +69851,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Water 2"
@@ -69120,7 +69899,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Monster",
@@ -69168,7 +69948,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Mineral"
@@ -69262,7 +70043,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Dragon"
@@ -69356,7 +70138,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Dragon"
@@ -69450,7 +70233,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Dragon"
@@ -69497,7 +70281,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -69544,7 +70329,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -69591,7 +70377,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -69638,7 +70425,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -69784,7 +70572,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -69930,7 +70719,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70076,7 +70866,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70222,7 +71013,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70269,7 +71061,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70316,7 +71109,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70363,7 +71157,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70410,7 +71205,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70457,7 +71253,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70504,7 +71301,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70551,7 +71349,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70656,7 +71455,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70709,7 +71509,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70756,7 +71557,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70827,7 +71629,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70898,7 +71701,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70945,7 +71749,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -70992,7 +71797,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -71039,7 +71845,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -71110,7 +71917,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -71181,7 +71989,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -71275,7 +72084,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -71370,7 +72180,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -71465,7 +72276,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -71560,7 +72372,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -71655,7 +72468,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -71750,7 +72564,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field",
@@ -71845,7 +72660,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -71940,7 +72756,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -72035,7 +72852,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Water 1",
@@ -72107,7 +72925,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -72178,7 +72997,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -72272,7 +73092,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -72366,7 +73187,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -72460,7 +73282,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Flying"
@@ -72554,7 +73377,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -72648,7 +73472,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -72742,7 +73567,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Bug"
@@ -72813,7 +73639,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -72884,7 +73711,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -72955,7 +73783,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -73026,7 +73855,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Grass"
@@ -73097,7 +73927,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -73168,7 +73999,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -73239,7 +74071,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -73311,7 +74144,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Monster",
@@ -73383,7 +74217,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -73454,7 +74289,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -73548,7 +74384,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -73642,7 +74479,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -73736,7 +74574,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Mineral"
@@ -73888,7 +74727,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass",
@@ -74041,7 +74881,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass",
@@ -74194,7 +75035,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass",
@@ -74266,7 +75108,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -74338,7 +75181,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -74424,7 +75268,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Water 1",
@@ -74496,7 +75341,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -74567,7 +75413,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -74638,7 +75485,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -74729,7 +75577,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Human-Like"
@@ -74800,7 +75649,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -74871,7 +75721,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -74942,7 +75793,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -75014,7 +75866,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -75086,7 +75939,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral",
@@ -75158,7 +76012,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral",
@@ -75253,7 +76108,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy"
@@ -75347,7 +76203,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy"
@@ -75441,7 +76298,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy"
@@ -75535,7 +76393,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy",
@@ -75630,7 +76489,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy",
@@ -75725,7 +76585,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Fairy",
@@ -75849,7 +76710,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -75979,7 +76841,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -76056,7 +76919,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -76134,7 +76998,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Flying",
@@ -76258,7 +77123,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -76358,7 +77224,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral",
@@ -76430,7 +77297,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Fairy",
@@ -76502,7 +77370,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Fairy",
@@ -76550,7 +77419,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Fairy",
@@ -76598,7 +77468,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Water 1",
@@ -76670,7 +77541,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -76741,7 +77613,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -76788,7 +77661,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Mineral"
@@ -76854,7 +77728,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Water 1",
@@ -76921,7 +77796,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Fairy"
@@ -76993,7 +77869,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "Field",
@@ -77065,7 +77942,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -77137,7 +78015,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field",
@@ -77185,7 +78064,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -77232,7 +78112,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -77279,7 +78160,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -77326,7 +78208,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -77397,7 +78280,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral",
@@ -77492,7 +78376,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous",
@@ -77587,7 +78472,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous",
@@ -77682,7 +78568,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Amorphous",
@@ -77756,7 +78643,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -77829,7 +78717,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -77876,7 +78765,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -77978,7 +78868,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -78100,7 +78991,8 @@
             "formId": 1
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -78153,7 +79045,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -78200,7 +79093,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -78247,7 +79141,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -78294,7 +79189,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -78341,7 +79237,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -78440,7 +79337,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -78511,7 +79409,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -78612,7 +79511,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Bug"
@@ -78732,7 +79632,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -78835,7 +79736,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -78937,7 +79839,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -79016,7 +79919,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 2"
@@ -79089,7 +79993,8 @@
           "formId": 0
         }
       ],
-      "evolutions": []
+      "evolutions": [],
+      "maxEvoStage": 0
     },
     "eggGroups": [
       "No Eggs Discovered"
@@ -81688,7 +82593,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Field"
@@ -81788,7 +82694,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Water 1",
@@ -81860,7 +82767,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -81950,7 +82858,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Field"
@@ -82044,7 +82953,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Human-Like"
@@ -83083,7 +83993,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass",
@@ -83409,7 +84320,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 1
     },
     "eggGroups": [
       "Mineral",
@@ -83562,7 +84474,8 @@
             "formId": 0
           }
         }
-      ]
+      ],
+      "maxEvoStage": 2
     },
     "eggGroups": [
       "Grass",
