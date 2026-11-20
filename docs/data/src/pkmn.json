@@ -84694,21 +84694,5 @@
       "No Eggs Discovered"
     ],
     "baseFriendship": 0
-  },
-  "bodyLookup": [
-    "Pokémon consisting of only a head",
-    "Pokémon consisting of a head and legs",
-    "Pokémon with fins",
-    "Pokémon with an insectoid body",
-    "Pokémon with a quadruped body",
-    "Pokémon with two or more pairs of wings",
-    "Pokémon consisting of multiple bodies",
-    "Pokémon with tentacles or a multiped body",
-    "Pokémon consisting of a head and a base",
-    "Pokémon with a bipedal, tailed form",
-    "Pokémon with a bipedal, tailless form",
-    "Pokémon with a single pair of wings",
-    "Pokémon with serpentine bodies",
-    "Pokémon consisting of a head and arms"
-  ]
+  }
 }
