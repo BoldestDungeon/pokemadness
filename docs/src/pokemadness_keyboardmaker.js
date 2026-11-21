@@ -69,7 +69,7 @@ function generateFormBasedData(formObj) {
   data[atkPrefix] = getStarRating('atk', formObj.baseStats.atk)
   data[defPrefix] = getStarRating('def', formObj.baseStats.def)
   data[spatkPrefix] = getStarRating('sp_atk', formObj.baseStats.sp_atk)
-  data[spdefPrefix] = getStarRating('dp_def', formObj.baseStats.sp_def)
+  data[spdefPrefix] = getStarRating('sp_def', formObj.baseStats.sp_def)
   data[spdPrefix] = getStarRating('speed', formObj.baseStats.speed)
 
   // Size: 0 - 10 stars
