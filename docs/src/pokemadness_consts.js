@@ -143,9 +143,9 @@ const nameCharacters = [
 ];
 
 function loadData() {
-  const allPkmnAsync = fetch('pokemadness/data/pkmn.json').then( resp => resp.json() ).then(data => { allPkmn = data }).catch( err => {console.log(err) });
-  const naturesAsync = fetch('pokemadness/data/natures.json').then( resp => resp.json() ).then(data => { natures = data }).catch( err => {console.log(err) });
-  const typesAsync = fetch('pokemadness/data/types.json').then( resp => resp.json() ).then(data => { types = data }).catch( err => {console.log(err) });
+  const allPkmnAsync = fetch('/pokemadness/data/pkmn.json').then( resp => resp.json() ).then(data => { allPkmn = data }).catch( err => {console.log(err) });
+  const naturesAsync = fetch('/pokemadness/data/natures.json').then( resp => resp.json() ).then(data => { natures = data }).catch( err => {console.log(err) });
+  const typesAsync = fetch('/pokemadness/data/types.json').then( resp => resp.json() ).then(data => { types = data }).catch( err => {console.log(err) });
 
   return Promise.all([ allPkmnAsync, naturesAsync, typesAsync]);
 }
