@@ -132,7 +132,7 @@ function generateTypeBasedData(formObj) {
 }
 
 function getStarRating(statId, value) {
-  const thresholds = starRatingThresholds[statId];
+  const thresholds = statRatingThresholds[statId];
   if(!thresholds) {
     console.error(`${statId} is not a recognized stat!`)
     return '1'
