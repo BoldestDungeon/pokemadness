@@ -90,7 +90,7 @@ const specialCaseDexIds = [
 const splitPrefix = 'a'             // Generic Dialogue/Spit tag prefix
 const evoCountPrefix = 'b'          // Count of how many times the character has evolved since being on the team (for pkmn who join at higher evolution stages)
 const pwdDigitPrefix = 'd'          // Tracks digits in password entry
-const evoStage = 'e'                // Evolution stage in family (0-based)
+const evoStagePrefix = 'e'                // Evolution stage in family (0-based)
 const genderPrefix = 'g'            // For Gender/Pronouns 
 const dexIdPrefix = 'i'             // For Pokedex ID
 const familyIdPrefix = 'j'          // For Evolution Family ID
@@ -143,9 +143,9 @@ const nameCharacters = [
 ];
 
 function loadData() {
-  const allPkmnAsync = fetch('data/src/pkmn.json').then( resp => resp.json() ).then(data => { allPkmn = data }).catch( err => {console.log(err) });
-  const naturesAsync = fetch('data/src/natures.json').then( resp => resp.json() ).then(data => { natures = data }).catch( err => {console.log(err) });
-  const typesAsync = fetch('data/src/types.json').then( resp => resp.json() ).then(data => { types = data }).catch( err => {console.log(err) });
+  const allPkmnAsync = fetch('pokemadness/data/pkmn.json').then( resp => resp.json() ).then(data => { allPkmn = data }).catch( err => {console.log(err) });
+  const naturesAsync = fetch('pokemadness/data/natures.json').then( resp => resp.json() ).then(data => { natures = data }).catch( err => {console.log(err) });
+  const typesAsync = fetch('pokemadness/data/types.json').then( resp => resp.json() ).then(data => { types = data }).catch( err => {console.log(err) });
 
   return Promise.all([ allPkmnAsync, naturesAsync, typesAsync]);
 }

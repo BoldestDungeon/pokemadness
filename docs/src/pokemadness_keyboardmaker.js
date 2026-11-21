@@ -41,6 +41,10 @@ function generatePkmnProps(pkmn, formObj) {
 function generateSpeciesData(pkmn) {
   const data = {};
   data[dexIdPrefix] = pkmn.dexId;
+  data[familyIdPrefix] = pkmn.familyId;
+  data[evoStagePrefix] = pkmn.evoStage;
+
+  const evolutionData = pkmn.evolutionFamily;
 
   data[baseFriendshipPrefix] = getStarRating('baseFriendship', pkmn.baseFriendship)
 
@@ -54,6 +58,7 @@ function generateSpeciesData(pkmn) {
     }
     data[eggGroupPrefix] = eggGroup.id;
   }
+  return data;
 }
 
 function generateFormBasedData(formObj) {
