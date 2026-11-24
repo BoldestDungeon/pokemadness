@@ -87,7 +87,7 @@ function generateFormBasedData(formObj) {
   data[weightPrefix] = getStarRating('weight', formObj.weight)
 
   // Appearance
-  data[colourPrefix] = formObj.colour;
+  data[colourPrefix] = colours.findIndex(colour => colour == formObj.colour);
   data[bodytypePrefix] = formObj.bodyId;
 
   // Form ID
