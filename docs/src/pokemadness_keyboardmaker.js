@@ -122,6 +122,7 @@ function getOrCreateTag(tagName) {
     category: tagName.split('_')[0],
     value: tagName.split('_')[1]
   }
+  additionalTags.push(tag);
   return tag;
 }
 
