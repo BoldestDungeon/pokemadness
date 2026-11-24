@@ -96,6 +96,8 @@ function generateFormBasedData(formObj) {
 
   // Everything else
     data[tagPrefix] = generateTagData(formObj.tags)
+
+  return data;
 }
 
 function generateTagData(tags) {
@@ -107,6 +109,7 @@ function generateTagData(tags) {
     const tag = getOrCreateTag(tagName);
     tagIdList.push(tag.id);
   }
+  return tagIdList;
 }
 
 function getOrCreateTag(tagName) {
