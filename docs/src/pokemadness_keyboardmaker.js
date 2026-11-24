@@ -43,22 +43,31 @@ function generateSpeciesData(pkmn) {
   data[dexIdPrefix] = pkmn.dexId;
   data[familyIdPrefix] = pkmn.familyId;
   data[evoStagePrefix] = pkmn.evoStage;
+  data[familyBinaryPrefix] = idToBinaryData(pkmn.familyId, familyBinaryLength);
 
   const evolutionData = pkmn.evolutionFamily;
+  data[maxEvoStagePrefix] = evolutionData.maxEvoStage;
+  data[canEvolvePrefix] = pkmn.evoStage < evolutionData.maxEvoStage ? '1' : '0';
+  // TODO: Track what each 'Mon can evolve from/into for dialogue moments
 
   data[baseFriendshipPrefix] = getStarRating('baseFriendship', pkmn.baseFriendship)
+  data[eggGroupPrefix] = generateEggGroupData(pkmn.eggGroups);
+  
+  return data;
+}
 
+function generateEggGroupData(eggGroups) {
+  const encoding = [];
   // Store all of the egg groups this 'mon is a member of
-  for(let e=0; e < pkmn.eggGroups.length; e++) {
-    const groupName = pkmn.eggGroups[e];
+  for(let e=0; e < eggGroups.length; e++) {
+    const groupName = eggGroups[e];
     const eggGroup = eggGroupLookup.find(group => group.name == groupName)
     if(!eggGroup) {
       console.error(`${groupName} is not a known egg group!`);
       continue;
     }
-    data[eggGroupPrefix] = eggGroup.id;
+    encoding.push(eggGroup.id);
   }
-  return data;
 }
 
 function generateFormBasedData(formObj) {
@@ -83,6 +92,33 @@ function generateFormBasedData(formObj) {
   // Form ID
   data[variationPrefix] = formObj.id
   // TODO: Region/variation name?
+
+  // Everything else
+    data[tagPrefix] = generateTagData(formObj.tags)
+}
+
+function generateTagData(tags) {
+  if(!tags) { return []; }
+
+  const tagIdList = [];
+  for(let t=0; t < tags.length; t++) {
+    const tagName = tags[t];
+    const tag = getOrCreateTag(tagName);
+    tagIdList.push(tag.id);
+  }
+}
+
+function getOrCreateTag(tagName) {
+  let tag = additionalTags.find(tag => tag.name == tagName);
+  if(tag) { return tag; }
+
+  tag = {
+    id: additionalTags.length,
+    name: tagName,
+    category: tagName.split('_')[0],
+    value: tagName.split('_')[1]
+  }
+  return tag;
 }
 
 function generateTypeBasedData(formObj) {
@@ -91,6 +127,11 @@ function generateTypeBasedData(formObj) {
   data[elStrongPrefix]  = []; // Type strengths (resistances)
   data[elWeakPrefix]    = []; // Type weaknesses
   data[elNullifyPrefix] = []; // Types nullified
+
+  const doubleStrongPrefix = `${elStrongPrefix}${elStrongPrefix}`;
+  const doubleWeakPrefix = `${elWeakPrefix}${elWeakPrefix}`;
+  data[doubleStrongPrefix] = [];  // Double-resist
+  data[doubleWeakPrefix]   = [];  // Double-weakness
 
   let type1 = types.find(t => t.name.toLowerCase() == formObj.type1.toLowerCase());
   let type2 = types.find(t => t.name.toLowerCase() == formObj.type2.toLowerCase());
@@ -113,14 +154,26 @@ function generateTypeBasedData(formObj) {
     const resistId = allResist[r];
     if (!allNull.includes(resistId) && !allWeak.includes(resistId)) {
       // An element is resisted if we're not also weak to it
-      data[elStrongPrefix].push(resistId.toString(18));
+      const resistIdStr = resistId.toString(18);
+      if(data[elStrongPrefix].includes(resistIdStr)) {
+        // Upgrade to doubly-resisted
+        data[doubleStrongPrefix].push(resistIdStr)
+      }
+      else {
+        data[elStrongPrefix].push(resistIdStr);
+      }
     }
   }
   for (let w = 0; w < allWeak.length; w++) {
     const weakId = allWeak[w];
     if (!allNull.includes(weakId) && !allResist.includes(weakId)) {
       // An elemental weakness only if we're not also strong to it
-      data[elWeakPrefix].push(weakId.toString(18));
+      const weakIdStr = weakId.toString(18);
+      if(data[elWeakPrefix].includes(weakIdStr)) {
+        // Upgrade to double-weakness
+        data[doubleWeakPrefix].push(weakIdStr)
+      }
+      data[elWeakPrefix].push(weakIdStr);
     }
   }
   for (let n = 0; n < allNull.length; n++) {
@@ -131,11 +184,37 @@ function generateTypeBasedData(formObj) {
   return data;
 }
 
+function idToBinaryData(id, binaryLength) {
+  // MINIFICATION NOTES:
+  //   Converts an ID number to binary class values
+  //   Numbers are used for 0 digits, Letters for 1 digits
+  // EXAMPLE: An ID of 5 is 0000000101 in binary digits (Length 10)
+  //   Returns ['0', '1', '2', '3', '4', '5', '6', 'h', '8', 'j']
+
+  const encoding = [];
+  binaryLength = binaryLength || familyBinaryLength;
+  
+  const binaryDigits = binaryStringWithPadding(id, binaryLength);
+
+  // Start 'true' bits at 'a', unless binaryLength is larger than 10 somehow
+  const firstTrueVal = 'a'.charCodeAt(0) + Math.max(0, binaryLength-10);
+  for(let i=0; i < binaryDigits.length; i++) {
+    const digitVal = parseInt(binaryDigits[i]);
+    if(digitVal) {
+      encoding.push(String.fromCharCode(firstTrueVal + i))
+    }
+    else {
+      encoding.push(i.toString(Math.max(binaryLength, 10)));
+    }
+  }
+  return encoding;
+}
+
 function getStarRating(statId, value) {
   const thresholds = statRatingThresholds[statId];
   if(!thresholds) {
     console.error(`${statId} is not a recognized stat!`)
-    return '1'
+    return '0'
   }
   // If we've topped out the scale, give max stars
   if(value >= thresholds[thresholds.length - 1]) {

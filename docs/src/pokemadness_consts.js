@@ -86,11 +86,15 @@ const specialCaseDexIds = [
   869, // Alcremie
 ]
 
+const additionalTags = []
+
 // ****** MINIFICATION CONSTANTS FOR INTERNAL INFORMATION *****
-const splitPrefix = 'a'             // Generic Dialogue/Spit tag prefix
+const tagPrefix = 'a'               // Generic Dialogue/Spit tag prefix
 const evoCountPrefix = 'b'          // Count of how many times the character has evolved since being on the team (for pkmn who join at higher evolution stages)
 const pwdDigitPrefix = 'd'          // Tracks digits in password entry
-const evoStagePrefix = 'e'                // Evolution stage in family (0-based)
+const evoStagePrefix = 'e'          // Evolution stage in family (0-based)
+const maxEvoStagePrefix = 'em'      // Max Evolution stage in family (0-based)
+const canEvolvePrefix = 'ep'        // Whether or not this 'Mon can evolve to another stage
 const genderPrefix = 'g'            // For Gender/Pronouns 
 const dexIdPrefix = 'i'             // For Pokedex ID
 const familyIdPrefix = 'j'          // For Evolution Family ID
@@ -161,9 +165,13 @@ function copycss(){
   alert('Generated CSS copied to clipboard!'); 
 }
 
-function idToBinaryDigits(id) {
-  const str = '0000000000' + parseInt(id).toString(2);
-  return str.substring(str.length - 10);
+function idToBinary(id, binaryLength) {
+  binaryLength = binaryLength || familyBinaryLength;
+
+  let binaryStringWithPadding = '0000000000' + parseInt(id).toString(2);
+  binaryStringWithPadding = binaryStringWithPadding.substring(binaryStringWithPadding.length - binaryLength)
+
+  return binaryStringWithPadding;
 }
 function toHex(number) { 
   return number.toString(16).toUpperCase() 
