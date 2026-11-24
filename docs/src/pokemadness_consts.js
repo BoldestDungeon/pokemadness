@@ -165,7 +165,7 @@ function copycss(){
   alert('Generated CSS copied to clipboard!'); 
 }
 
-function idToBinary(id, binaryLength) {
+function binaryStringWithPadding(id, binaryLength) {
   binaryLength = binaryLength || familyBinaryLength;
 
   let binaryStringWithPadding = '0000000000' + parseInt(id).toString(2);

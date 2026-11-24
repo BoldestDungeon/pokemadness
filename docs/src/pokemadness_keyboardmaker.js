@@ -68,6 +68,7 @@ function generateEggGroupData(eggGroups) {
     }
     encoding.push(eggGroup.id);
   }
+  return encoding;
 }
 
 function generateFormBasedData(formObj) {
