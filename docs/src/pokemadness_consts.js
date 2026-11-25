@@ -3,6 +3,7 @@ let keyboardHTML = '';
 let allPkmn = null;
 let natures = null;
 let types = null;
+let additionalTags = null;
 
 const gen9start = 906;
 const maxGen8fam = 468;
@@ -86,8 +87,6 @@ const specialCaseDexIds = [
   869, // Alcremie
 ]
 
-const additionalTags = []
-
 // ****** MINIFICATION CONSTANTS FOR INTERNAL INFORMATION *****
 const tagPrefix = 'a'               // Generic Dialogue/Spit tag prefix
 const evoCountPrefix = 'b'          // Count of how many times the character has evolved since being on the team (for pkmn who join at higher evolution stages)
@@ -150,8 +149,14 @@ function loadData() {
   const allPkmnAsync = fetch('/pokemadness/data/pkmn.json').then( resp => resp.json() ).then(data => { allPkmn = data }).catch( err => {console.log(err) });
   const naturesAsync = fetch('/pokemadness/data/natures.json').then( resp => resp.json() ).then(data => { natures = data }).catch( err => {console.log(err) });
   const typesAsync = fetch('/pokemadness/data/types.json').then( resp => resp.json() ).then(data => { types = data }).catch( err => {console.log(err) });
+  const tagsAsync = fetch('/pokemadness/data/tags.json').then(resp => resp.json() ).then(data => { additionalTags = data }).catch( err => {console.log(err)});
 
-  return Promise.all([ allPkmnAsync, naturesAsync, typesAsync]);
+  return Promise.all([ 
+    allPkmnAsync, 
+    naturesAsync, 
+    typesAsync, 
+    tagsAsync,
+  ]);
 }
 function copyresult(){ 
   if(!allPkmn) { 
